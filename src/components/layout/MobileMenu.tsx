@@ -42,18 +42,27 @@ export function MobileMenu() {
         )}
       </button>
 
+      {/* Backdrop overlay */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-30 bg-black/30 lg:hidden"
+          onClick={() => setIsOpen(false)}
+        />
+      )}
+
+      {/* Menu panel */}
       <div
         className={cn(
-          "fixed inset-0 top-[120px] z-40 bg-white transition-transform duration-300 lg:hidden",
+          "fixed inset-y-0 right-0 top-16 z-40 w-full max-w-sm bg-white shadow-xl transition-transform duration-300 ease-in-out lg:hidden",
           isOpen ? "translate-x-0" : "translate-x-full"
         )}
       >
-        <nav className="flex flex-col p-6">
+        <nav className="flex h-full flex-col overflow-y-auto p-6">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="border-b border-accent-100 py-3 text-lg font-medium text-gray-700 hover:text-primary-500 transition-colors"
+              className="border-b border-accent-100 py-3 text-base font-medium text-gray-700 hover:text-primary-500 transition-colors"
               onClick={() => setIsOpen(false)}
             >
               {item.label}
