@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-50: #e6f0fb;
+  --color-primary-100: #cce1f7;
+  --color-primary-200: #99c3ef;
+  --color-primary-300: #66a5e7;
+  --color-primary-400: #3387df;
+  --color-primary-500: #0B5ED7;
+  --color-primary-600: #094bac;
+  --color-primary-700: #073881;
+  --color-primary-800: #052656;
+  --color-primary-900: #02132b;
+
+  --color-accent-50: #f8f9fa;
+  --color-accent-100: #f1f3f5;
+  --color-accent-200: #e9ecef;
+  --color-accent-300: #dee2e6;
+  --color-accent-400: #ced4da;
+
+  --color-emergency: #dc2626;
+  --color-emergency-dark: #b91c1c;
+
+  --color-whatsapp: #25D366;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  --animate-bounce-gentle: bounce-gentle 2s ease-in-out infinite;
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+body {
+  background: #ffffff;
+  color: #1a1a2e;
+  font-family: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
