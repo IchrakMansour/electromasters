@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { company } from "@/data/company";
 import { Button } from "@/components/ui/Button";
 
@@ -64,15 +65,18 @@ export function HeroSection({
             )}
           </div>
 
-          {/* Right side — animated lightning icon */}
+          {/* Right side — electrician image */}
           <div className="hidden items-center justify-center lg:flex">
             <div className="relative">
-              <div className="absolute inset-0 animate-pulse rounded-full bg-primary-100/50 blur-2xl" />
-              <div className="relative flex h-72 w-72 items-center justify-center rounded-3xl bg-gradient-to-br from-gray-50 to-primary-50 ring-1 ring-gray-100">
-                <svg className="h-32 w-32 text-primary-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M13 2L3 14h7l-2 8L20 10h-7l2-8z" />
-                </svg>
-              </div>
+              <div className="absolute -inset-4 rounded-3xl bg-primary-100/30 blur-2xl" />
+              <Image
+                src="/electricien.png"
+                alt="Professional electrician"
+                width={500}
+                height={500}
+                priority
+                className="relative rounded-2xl object-cover shadow-lg"
+              />
             </div>
           </div>
         </div>
