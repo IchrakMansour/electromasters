@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { use } from "react";
 import { setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
 import { company } from "@/data/company";
 import type { Locale } from "@/i18n/routing";
 import { HeroSection } from "@/components/sections/HeroSection";
@@ -48,6 +49,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const l = locale as Locale;
+  if (!meta[l]) return {};
   const url = `${company.url}/${locale}`;
 
   return {
@@ -80,6 +82,7 @@ export default function HomePage({
   const { locale } = use(params);
   setRequestLocale(locale);
   const l = locale as Locale;
+  if (!meta[l]) notFound();
 
   return (
     <>
