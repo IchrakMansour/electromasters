@@ -34,7 +34,7 @@ export function EmergencySection() {
                   </li>
                 ))}
               </ul>
-              <Button href={`tel:${company.phoneRaw}`} variant="emergency" size="lg">
+              <Button href={`tel:${company.phoneRaw}`} variant="primary" size="lg">
                 <svg className="mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
@@ -43,8 +43,8 @@ export function EmergencySection() {
             </div>
             <div className="flex items-center justify-center bg-gray-800 p-12">
               <div className="relative">
-                <div className="absolute inset-0 animate-ping rounded-full bg-emergency/20" style={{ animationDuration: '2s' }} />
-                <div className="relative flex h-28 w-28 items-center justify-center rounded-full bg-emergency text-white shadow-lg shadow-emergency/30">
+                <div className="absolute inset-0 animate-ping rounded-full bg-primary-500/20" style={{ animationDuration: '2s' }} />
+                <div className="relative flex h-28 w-28 items-center justify-center rounded-full bg-primary-500 text-white shadow-lg shadow-primary-500/30">
                   <svg className="h-14 w-14" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M13 2L3 14h7l-2 8L20 10h-7l2-8z" />
                   </svg>

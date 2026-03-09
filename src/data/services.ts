@@ -11,14 +11,14 @@ export const services: Service[] = [
     icon: "Zap",
     content: {
       nl: {
-        title: "Noodelektricien",
+        title: "Spoedelektricien",
         metaTitle:
           "Noodelektricien | 24/7 Spoeddienst Elektricien | Electro Masters",
         metaDescription:
           "Elektriciteit uitgevallen? Onze noodelektricien is 24/7 bereikbaar in heel Vlaanderen. Snelle interventie bij stroomuitval, kortsluiting en elektrische noodgevallen. Bel nu!",
-        h1: "Noodelektricien - 24/7 Beschikbaar in Vlaanderen",
+        h1: "Spoedelectricien - 24/7 Beschikbaar in Vlaanderen",
         intro:
-          "Staat u plotseling zonder stroom? Heeft u te maken met een kortsluiting, vonkenregen of een brandende geur uit uw zekeringkast? In noodsituaties telt elke minuut. Electro Masters biedt een 24/7 spoeddienst voor elektriciteit in heel Vlaanderen. Onze gecertificeerde noodelektriciens staan dag en nacht klaar om u snel en vakkundig te helpen. Wij begrijpen dat elektrische problemen niet wachten tot kantooruren — daarom zijn wij altijd bereikbaar, ook tijdens weekends en feestdagen. Met gemiddelde aankomsttijden van minder dan 45 minuten in de meeste Vlaamse steden, bent u verzekerd van snelle en professionele hulp wanneer u die het meest nodig hebt.",
+          "Plots zonder stroom? Kortsluiting, vonkenregen of een brandgeur uit uw zekeringskast? Onze spoedelektriciens staan klaar.",
         sections: [
           {
             heading: "Wanneer hebt u een noodelektricien nodig?",
@@ -216,7 +216,7 @@ export const services: Service[] = [
           "Professionele elektrische installatie in Vlaanderen. Nieuwbouw, renovatie of uitbreiding? Electro Masters zorgt voor veilige en conforme elektrische installaties.",
         h1: "Professionele Elektrische Installatie in Vlaanderen",
         intro:
-          "Of u nu een nieuwbouwwoning bouwt, uw bestaande woning renoveert, of een commercieel pand van elektriciteit wilt voorzien — een professionele elektrische installatie is de basis van uw comfort en veiligheid. Bij Electro Masters beschikken we over jarenlange ervaring in het ontwerpen en realiseren van complete elektrische installaties die voldoen aan alle Belgische normen en voorschriften. Onze erkende elektriciens werken nauwkeurig, netjes en altijd in overleg met u, zodat het eindresultaat perfect aansluit bij uw wensen en behoeften. Van de eerste plannen tot de uiteindelijke keuring: wij begeleiden u bij elke stap.",
+          "Nieuwbouw, renovatie of commerciële installatie? Wij voorzien uw pand van veilige en efficiënte elektriciteit.",
         sections: [
           {
             heading: "Elektrische installatie voor nieuwbouw",

@@ -4,7 +4,6 @@ import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { EmergencyBanner } from "@/components/layout/EmergencyBanner";
 import { StickyCallButton } from "@/components/layout/StickyCallButton";
 import { JsonLd } from "@/components/seo/JsonLd";
 
@@ -26,7 +25,6 @@ export default function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <JsonLd type="localBusiness" />
-      <EmergencyBanner />
       <Header />
       <main>{children}</main>
       <Footer />

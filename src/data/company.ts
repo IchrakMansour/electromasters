@@ -1,9 +1,9 @@
 export const company = {
-  name: "Electro Masters",
-  phone: "+32 XXX XX XX XX",
-  phoneRaw: "+32XXXXXXXXX",
-  email: "info@electromasters.be",
-  whatsapp: "+32XXXXXXXXX",
+  name: "Elektro Master",
+  phone: "+32 491 48 96 05",
+  phoneRaw: "+32491489605",
+  email: "info@elektromaster.be",
+  whatsapp: "+32491489605",
   address: {
     street: "Voorbeeldstraat 123",
     city: "Antwerpen",

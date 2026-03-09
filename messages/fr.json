@@ -10,7 +10,8 @@
     "available247": "Disponible 24/7",
     "whatsapp": "WhatsApp",
     "sendMessage": "Envoyer un message",
-    "backToHome": "Retour à l'accueil"
+    "backToHome": "Retour à l'accueil",
+    "requestQuoteNow": "Demandez votre devis maintenant"
   },
   "nav": {
     "home": "Accueil",
@@ -18,10 +19,10 @@
     "emergency": "Électricien d'urgence",
     "installation": "Installation Électrique",
     "repairs": "Réparations",
-    "smartHome": "Maison Intelligente",
     "industrial": "Industriel",
     "serviceAreas": "Zones de Service",
-    "contact": "Contact"
+    "contact": "Contact",
+    "requestQuoteNow": "Demandez votre devis maintenant"
   },
   "home": {
     "heroTitle": "Votre Électricien de Confiance en Flandre",
@@ -35,7 +36,7 @@
     "emergencyFeature1": "Sur place en moins de 45 minutes en moyenne",
     "emergencyFeature2": "Véhicules de service entièrement équipés",
     "emergencyFeature3": "Électriciens certifiés et expérimentés",
-    "whyTitle": "Pourquoi Choisir Electro Masters?",
+    "whyTitle": "Pourquoi Choisir Elektro Master?",
     "whySubtitle": "Depuis plus de 10 ans, le choix de confiance pour les services électriques en Flandre.",
     "why1Title": "Disponible 24/7",
     "why1Desc": "Joignable jour et nuit pour toutes vos urgences électriques. Pas de frais supplémentaires le week-end.",
@@ -46,9 +47,9 @@
     "why4Title": "Service Local",
     "why4Desc": "Établi en Flandre avec un service rapide à Anvers, Gand, Bruges, Louvain et environs.",
     "areasTitle": "Nos Zones de Service en Flandre",
-    "areasSubtitle": "Electro Masters offre des services électriques dans toute la Flandre. Découvrez notre service local près de chez vous.",
+    "areasSubtitle": "Elektro Master offre des services électriques dans toute la Flandre. Découvrez notre service local près de chez vous.",
     "reviewsTitle": "Ce que Disent Nos Clients",
-    "reviewsSubtitle": "Découvrez pourquoi des centaines de clients en Flandre font confiance à Electro Masters."
+    "reviewsSubtitle": "Découvrez pourquoi des centaines de clients en Flandre font confiance à Elektro Master."
   },
   "contact": {
     "title": "Contactez-Nous",
@@ -69,7 +70,7 @@
     "infoHoursValue": "24/7 pour les urgences"
   },
   "footer": {
-    "description": "Electro Masters est votre partenaire de confiance pour tous les services électriques en Flandre. Des réparations d'urgence aux installations complètes — nous sommes disponibles 24/7.",
+    "description": "Elektro Master est votre partenaire de confiance pour tous les services électriques en Flandre. Des réparations d'urgence aux installations complètes — nous sommes disponibles 24/7.",
     "services": "Services",
     "serviceAreas": "Zones de Service",
     "company": "Entreprise",

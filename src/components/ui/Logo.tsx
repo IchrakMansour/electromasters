@@ -19,7 +19,7 @@ export function Logo({ size = "md", variant = "color", className }: LogoProps) {
   return (
     <Image
       src="/logo.svg"
-      alt="Electro Masters"
+      alt="Elektro Master"
       width={s.width}
       height={s.height}
       priority

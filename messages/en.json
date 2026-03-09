@@ -10,7 +10,8 @@
     "available247": "Available 24/7",
     "whatsapp": "WhatsApp us",
     "sendMessage": "Send a message",
-    "backToHome": "Back to home"
+    "backToHome": "Back to home",
+    "requestQuoteNow": "Request your quote now"
   },
   "nav": {
     "home": "Home",
@@ -18,10 +19,10 @@
     "emergency": "Emergency Electrician",
     "installation": "Electrical Installation",
     "repairs": "Repairs",
-    "smartHome": "Smart Home",
     "industrial": "Industrial",
     "serviceAreas": "Service Areas",
-    "contact": "Contact"
+    "contact": "Contact",
+    "requestQuoteNow": "Request your quote now"
   },
   "home": {
     "heroTitle": "Your Trusted Electrician in Flanders",
@@ -35,7 +36,7 @@
     "emergencyFeature1": "On-site within 45 minutes on average",
     "emergencyFeature2": "Fully equipped service vehicles",
     "emergencyFeature3": "Certified and experienced electricians",
-    "whyTitle": "Why Choose Electro Masters?",
+    "whyTitle": "Why Choose Elektro Master?",
     "whySubtitle": "For over 10 years, the trusted choice for electrical services in Flanders.",
     "why1Title": "Available 24/7",
     "why1Desc": "Reachable day and night for all your electrical emergencies. No extra charges for weekend work.",
@@ -46,9 +47,9 @@
     "why4Title": "Local Service",
     "why4Desc": "Based in Flanders with fast service in Antwerp, Ghent, Bruges, Leuven, and surrounding areas.",
     "areasTitle": "Our Service Areas in Flanders",
-    "areasSubtitle": "Electro Masters provides electrical services across Flanders. Discover our local service near you.",
+    "areasSubtitle": "Elektro Master provides electrical services across Flanders. Discover our local service near you.",
     "reviewsTitle": "What Our Clients Say",
-    "reviewsSubtitle": "Discover why hundreds of clients across Flanders trust Electro Masters."
+    "reviewsSubtitle": "Discover why hundreds of clients across Flanders trust Elektro Master."
   },
   "contact": {
     "title": "Get in Touch",
@@ -69,7 +70,7 @@
     "infoHoursValue": "24/7 for emergencies"
   },
   "footer": {
-    "description": "Electro Masters is your trusted partner for all electrical services in Flanders. From emergency repairs to complete installations — we're available 24/7.",
+    "description": "Elektro Master is your trusted partner for all electrical services in Flanders. From emergency repairs to complete installations — we're available 24/7.",
     "services": "Services",
     "serviceAreas": "Service Areas",
     "company": "Company",

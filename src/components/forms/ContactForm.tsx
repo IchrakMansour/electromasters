@@ -102,7 +102,7 @@ export function ContactForm() {
           className="w-full rounded-lg border border-accent-300 px-4 py-3 text-gray-900 transition-colors focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20"
         >
           <option value="">{t("formServicePlaceholder")}</option>
-          {services.map((service) => (
+          {services.filter((s) => s.key !== "smart-home").map((service) => (
             <option key={service.key} value={service.key}>
               {service.content[locale].title}
             </option>

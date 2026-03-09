@@ -1,6 +1,6 @@
 {
   "common": {
-    "callNow": "Bel Nu",
+    "callNow": "Bel nu",
     "callUs": "Bel ons",
     "freeQuote": "Gratis Offerte",
     "requestQuote": "Vraag een offerte aan",
@@ -10,18 +10,19 @@
     "available247": "24/7 Beschikbaar",
     "whatsapp": "WhatsApp ons",
     "sendMessage": "Stuur een bericht",
-    "backToHome": "Terug naar home"
+    "backToHome": "Terug naar home",
+    "requestQuoteNow": "Vraag nu uw offerte aan"
   },
   "nav": {
     "home": "Home",
     "services": "Diensten",
-    "emergency": "Noodelektricien",
+    "emergency": "Spoedelektricien",
     "installation": "Elektrische Installatie",
     "repairs": "Herstellingen",
-    "smartHome": "Smart Home",
     "industrial": "Industrieel",
     "serviceAreas": "Werkgebied",
-    "contact": "Contact"
+    "contact": "Contact",
+    "requestQuoteNow": "Vraag nu uw offerte aan"
   },
   "home": {
     "heroTitle": "Uw Betrouwbare Elektricien in Vlaanderen",
@@ -35,7 +36,7 @@
     "emergencyFeature1": "Gemiddeld binnen 45 minuten ter plaatse",
     "emergencyFeature2": "Volledig uitgeruste servicewagens",
     "emergencyFeature3": "Gecertificeerde en ervaren elektriciens",
-    "whyTitle": "Waarom Kiezen voor Electro Masters?",
+    "whyTitle": "Waarom kiezen voor Elektro Master?",
     "whySubtitle": "Al meer dan 10 jaar de betrouwbare keuze voor elektrische diensten in Vlaanderen.",
     "why1Title": "24/7 Beschikbaar",
     "why1Desc": "Dag en nacht bereikbaar voor al uw elektrische noodgevallen. Geen extra kosten voor weekendwerk.",
@@ -46,9 +47,9 @@
     "why4Title": "Lokale Service",
     "why4Desc": "Gevestigd in Vlaanderen met snelle service in Antwerpen, Gent, Brugge, Leuven en omstreken.",
     "areasTitle": "Ons Werkgebied in Vlaanderen",
-    "areasSubtitle": "Electro Masters biedt elektrische diensten aan in heel Vlaanderen. Ontdek onze lokale service bij u in de buurt.",
+    "areasSubtitle": "Elektro Master biedt elektrische diensten aan in heel Vlaanderen. Ontdek onze lokale service bij u in de buurt.",
     "reviewsTitle": "Wat Onze Klanten Zeggen",
-    "reviewsSubtitle": "Ontdek waarom honderden klanten in Vlaanderen vertrouwen op Electro Masters."
+    "reviewsSubtitle": "Ontdek waarom honderden klanten in Vlaanderen vertrouwen op Elektro Master."
   },
   "contact": {
     "title": "Neem Contact Op",
@@ -69,7 +70,7 @@
     "infoHoursValue": "24/7 voor noodgevallen"
   },
   "footer": {
-    "description": "Electro Masters is uw betrouwbare partner voor alle elektrische diensten in Vlaanderen. Van noodherstellingen tot complete installaties — wij staan 24/7 voor u klaar.",
+    "description": "Elektro Master biedt betrouwbare elektrische oplossingen in heel Vlaanderen. Van herstellingen tot installaties — wij staan 24/7 paraat met vakmanschap en snelheid.",
     "services": "Diensten",
     "serviceAreas": "Werkgebied",
     "company": "Bedrijf",
