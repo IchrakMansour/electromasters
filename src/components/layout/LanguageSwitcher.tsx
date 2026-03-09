@@ -7,10 +7,10 @@ import { routing, type Locale } from "@/i18n/routing";
 import { getAlternateSlug } from "@/lib/slug-resolver";
 import { cn } from "@/lib/utils";
 
-const localeConfig: Record<Locale, { flag: string; label: string; code: string }> = {
-  nl: { flag: "\u{1F1F3}\u{1F1F1}", label: "Nederlands", code: "NL" },
-  fr: { flag: "\u{1F1EB}\u{1F1F7}", label: "Fran\u00E7ais", code: "FR" },
-  en: { flag: "\u{1F1EC}\u{1F1E7}", label: "English", code: "EN" },
+const localeConfig: Record<Locale, { flagCode: string; label: string; code: string }> = {
+  nl: { flagCode: "nl", label: "Nederlands", code: "NL" },
+  fr: { flagCode: "fr", label: "Fran\u00E7ais", code: "FR" },
+  en: { flagCode: "gb", label: "English", code: "EN" },
 };
 
 export function LanguageSwitcher() {
@@ -62,9 +62,13 @@ export function LanguageSwitcher() {
         aria-expanded={isOpen}
         aria-haspopup="listbox"
       >
-        <svg className="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-        </svg>
+        <img
+          src={`https://flagcdn.com/20x15/${current.flagCode}.png`}
+          width={20}
+          height={15}
+          alt={current.label}
+          className="rounded-sm"
+        />
         <span>{current.code}</span>
         <svg
           className={cn("h-3 w-3 text-gray-400 transition-transform duration-200", isOpen && "rotate-180")}
@@ -103,7 +107,13 @@ export function LanguageSwitcher() {
                   : "text-gray-700 hover:bg-accent-50"
               )}
             >
-              <span className="text-lg">{config.flag}</span>
+              <img
+                src={`https://flagcdn.com/20x15/${config.flagCode}.png`}
+                width={20}
+                height={15}
+                alt={config.label}
+                className="rounded-sm"
+              />
               <span className="flex-1 text-left font-medium">{config.label}</span>
               {isActive && (
                 <svg className="h-4 w-4 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">

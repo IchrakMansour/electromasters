@@ -21,7 +21,7 @@ const meta: Record<
       "Professionele elektricien in Vlaanderen. 24/7 beschikbaar voor noodgevallen, installaties, herstellingen en smart home. Bel nu voor snelle service!",
     heroTitle: "Uw Betrouwbare Elektricien in Vlaanderen",
     heroSubtitle:
-      "Professionele elektrische diensten voor particulieren en bedrijven. 24/7 beschikbaar voor noodgevallen in Antwerpen, Gent, Brugge, Leuven en heel Vlaanderen.",
+      "Professionele elektriciteitsdiensten voor particulieren en bedrijven. 24/7 beschikbaar voor noodgevallen in Antwerpen, Gent, Brugge, Leuven en heel Vlaanderen.",
   },
   fr: {
     title: "Electro Masters | Électricien Flandre | Disponible 24/7",

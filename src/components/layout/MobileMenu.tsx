@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { services } from "@/data/services";
+import { company } from "@/data/company";
 import type { Locale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -18,7 +19,6 @@ export function MobileMenu() {
     { label: t("emergency"), href: `/${services[0].slugs[locale]}` },
     { label: t("installation"), href: `/${services[1].slugs[locale]}` },
     { label: t("repairs"), href: `/${services[2].slugs[locale]}` },
-    { label: t("smartHome"), href: `/${services[3].slugs[locale]}` },
     { label: t("industrial"), href: `/${services[4].slugs[locale]}` },
     { label: t("contact"), href: "/contact" },
   ];
@@ -68,7 +68,16 @@ export function MobileMenu() {
               {item.label}
             </Link>
           ))}
-          <div className="mt-6">
+          <a
+            href={`tel:${company.phoneRaw}`}
+            className="mt-6 flex items-center gap-3 rounded-lg bg-primary-500 px-4 py-3 text-base font-semibold text-white"
+          >
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            {company.phone}
+          </a>
+          <div className="mt-4">
             <LanguageSwitcher />
           </div>
         </nav>
