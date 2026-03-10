@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:elektricien-schoten.be)"
+      "WebFetch(domain:elektricien-schoten.be)",
+      "Bash(npm install next-themes)"
     ]
   }
 }

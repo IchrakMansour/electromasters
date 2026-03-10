@@ -39,6 +39,35 @@ body {
   font-family: var(--font-sans);
 }
 
+.dark body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.dark .bg-white {
+  background-color: #1e293b !important;
+}
+
+.dark .bg-white\/95 {
+  background-color: rgb(30 41 59 / 0.95) !important;
+}
+
+.dark .text-gray-700 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-gray-900 {
+  color: #f1f5f9 !important;
+}
+
+.dark .border-accent-200 {
+  border-color: #334155 !important;
+}
+
+.dark .shadow-md {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.4) !important;
+}
+
 html {
   scroll-behavior: smooth;
 }

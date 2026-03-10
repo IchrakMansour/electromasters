@@ -9,6 +9,7 @@ import type { Locale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 import { Logo } from "@/components/ui/Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 import { MobileMenu } from "./MobileMenu";
 
 export function Header() {
@@ -100,6 +101,7 @@ export function Header() {
           </nav>
 
           <div className="hidden items-center gap-4 lg:flex">
+            <ThemeToggle />
             <LanguageSwitcher />
             <a
               href="/contact"
