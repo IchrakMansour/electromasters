@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { company } from "@/data/company";
 import { services } from "@/data/services";
 import type { Locale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
@@ -104,7 +103,7 @@ export function Header() {
             <ThemeToggle />
             <LanguageSwitcher />
             <a
-              href="/contact"
+              href="/#contact-form"
               className="inline-flex items-center gap-2 rounded-lg bg-primary-500 px-6 py-3 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-600"
             >
               {t("requestQuoteNow")}

@@ -91,7 +91,7 @@ export default function HomePage({
       <EmergencySection />
       <WhyChooseUs />
       <CTABanner variant="emergency" />
-      <section className="py-16 lg:py-24">
+      <section id="contact-form" className="py-16 lg:py-24">
         <Container>
           <div className="mx-auto max-w-2xl">
             <ContactForm />

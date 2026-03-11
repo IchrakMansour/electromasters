@@ -729,6 +729,7 @@ export const services: Service[] = [
   },
   {
     key: "industrial",
+    heroImage: "/20250327_134437.webp",
     slugs: {
       nl: "industriele-elektriciteit",
       fr: "electricite-industrielle",

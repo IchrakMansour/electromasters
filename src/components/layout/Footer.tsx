@@ -71,9 +71,20 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-gray-800 pt-8">
+        <div className="mt-12 border-t border-gray-800 pt-8 flex flex-col items-center gap-2">
           <p className="text-center text-sm">
             &copy; {new Date().getFullYear()} {company.name}. {t("rights")}
+          </p>
+          <p className="text-center text-xs text-gray-500">
+            Developed by{" "}
+            <a
+              href="https://www.pilotnexus.eu/en/services/it-engineering"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-400 hover:text-primary-300 transition-colors"
+            >
+              Pilot Nexus
+            </a>
           </p>
         </div>
       </div>
