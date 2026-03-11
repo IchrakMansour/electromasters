@@ -22,6 +22,7 @@ export interface LocalizedContent {
 
 export interface Service {
   key: string;
+  heroImage?: string;
   slugs: Record<Locale, string>;
   icon: string;
   content: Record<Locale, LocalizedContent>;
