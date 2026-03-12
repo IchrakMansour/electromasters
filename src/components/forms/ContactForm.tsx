@@ -11,10 +11,40 @@ export function ContactForm() {
   const t = useTranslations("contact");
   const locale = useLocale() as Locale;
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+
+    const form = e.currentTarget;
+    const data = {
+      name: (form.elements.namedItem("name") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
+      service: (form.elements.namedItem("service") as HTMLSelectElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+    };
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      const result = await res.json();
+      if (result.success) {
+        setSubmitted(true);
+      } else {
+        setError("Er is iets misgegaan. Probeer het opnieuw of bel ons direct.");
+      }
+    } catch {
+      setError("Er is iets misgegaan. Probeer het opnieuw of bel ons direct.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -100,7 +130,7 @@ export function ContactForm() {
         <select
           id="service"
           name="service"
-          className="w-full rounded-lg border border-accent-300 px-4 py-3 text-gray-900 transition-colors focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20"
+          className="w-full rounded-lg border border-accent-300 bg-[#0f172a] px-4 py-3 text-white transition-colors focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20 [&>option]:bg-[#0f172a] [&>option]:text-white"
         >
           <option value="">{t("formServicePlaceholder")}</option>
           {services.map((service) => (
@@ -127,8 +157,12 @@ export function ContactForm() {
         />
       </div>
 
-      <Button type="submit" size="lg" className="w-full">
-        {t("formSubmit")}
+      {error && (
+        <p className="text-sm text-red-600">{error}</p>
+      )}
+
+      <Button type="submit" size="lg" className="w-full" disabled={loading}>
+        {loading ? "Verzenden..." : t("formSubmit")}
       </Button>
 
       <div className="flex items-center gap-3 pt-2">
