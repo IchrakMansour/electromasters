@@ -3,6 +3,7 @@ import type { Service } from "@/types";
 export const services: Service[] = [
   {
     key: "emergency",
+    heroImage: "/Stroomstoring-verhelpen.jpg",
     slugs: {
       nl: "noodelektricien",
       fr: "electricien-urgence",
