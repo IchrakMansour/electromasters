@@ -18,21 +18,11 @@ const reviews = [
     location: "Gent",
     rating: 5,
     text: {
-      nl: "Electro Masters heeft onze volledige woning gerenoveerd qua elektriciteit. Netjes werk, goede communicatie en eerlijke prijs. De keuring is in één keer geslaagd!",
-      fr: "Electro Masters a entièrement rénové l'électricité de notre maison. Travail soigné, bonne communication et prix honnête. Le contrôle a été réussi du premier coup!",
-      en: "Electro Masters completely renovated our home's electrical system. Clean work, good communication, and fair price. The inspection passed on the first try!",
+      nl: "Elektro Master heeft onze volledige woning gerenoveerd qua elektriciteit. Netjes werk, goede communicatie en eerlijke prijs. De keuring is in één keer geslaagd!",
+      fr: "Elektro Master a entièrement rénové l'électricité de notre maison. Travail soigné, bonne communication et prix honnête. Le contrôle a été réussi du premier coup!",
+      en: "Elektro Master completely renovated our home's electrical system. Clean work, good communication, and fair price. The inspection passed on the first try!",
     },
-  },
-  {
-    name: "Peter Van den Berg",
-    location: "Leuven",
-    rating: 5,
-    text: {
-      nl: "Fantastisch team! Ze hebben ons smart home systeem geïnstalleerd en alles werkt perfect. Verlichting, verwarming en beveiliging allemaal vanuit één app. Heel tevreden!",
-      fr: "Équipe fantastique! Ils ont installé notre système smart home et tout fonctionne parfaitement. Éclairage, chauffage et sécurité, tout depuis une seule application. Très satisfait!",
-      en: "Fantastic team! They installed our smart home system and everything works perfectly. Lighting, heating, and security all from one app. Very satisfied!",
-    },
-  },
+  }
 ];
 
 function StarRating({ rating }: { rating: number }) {

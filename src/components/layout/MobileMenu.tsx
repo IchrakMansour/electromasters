@@ -20,7 +20,7 @@ export function MobileMenu() {
     { label: t("emergency"), href: `/${services[0].slugs[locale]}` },
     { label: t("installation"), href: `/${services[1].slugs[locale]}` },
     { label: t("repairs"), href: `/${services[2].slugs[locale]}` },
-    { label: t("industrial"), href: `/${services[4].slugs[locale]}` },
+    { label: t("industrial"), href: `/${services[3].slugs[locale]}` },
     { label: t("contact"), href: "/contact" },
   ];
 

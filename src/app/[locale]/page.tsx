@@ -17,7 +17,7 @@ const meta: Record<
   { title: string; description: string; heroTitle: string; heroSubtitle: string }
 > = {
   nl: {
-    title: "Electro Masters | Elektricien Vlaanderen | 24/7 Beschikbaar",
+    title: "Elektro Master | Elektricien Vlaanderen | 24/7 Beschikbaar",
     description:
       "Professionele elektricien in Vlaanderen. 24/7 beschikbaar voor noodgevallen, installaties, herstellingen en smart home. Bel nu voor snelle service!",
     heroTitle: "Uw Betrouwbare Elektricien in Vlaanderen",
@@ -25,7 +25,7 @@ const meta: Record<
       "Professionele elektriciteitsdiensten voor particulieren en bedrijven. 24/7 beschikbaar voor noodgevallen in Antwerpen, Gent, Brugge, Leuven en heel Vlaanderen.",
   },
   fr: {
-    title: "Electro Masters | Électricien Flandre | Disponible 24/7",
+    title: "Elektro Master | Électricien Flandre | Disponible 24/7",
     description:
       "Électricien professionnel en Flandre. Disponible 24/7 pour urgences, installations, réparations et maison intelligente. Appelez maintenant!",
     heroTitle: "Votre Électricien de Confiance en Flandre",
@@ -33,7 +33,7 @@ const meta: Record<
       "Services électriques professionnels pour particuliers et entreprises. Disponible 24/7 pour les urgences à Anvers, Gand, Bruges, Louvain et dans toute la Flandre.",
   },
   en: {
-    title: "Electro Masters | Electrician Flanders | Available 24/7",
+    title: "Elektro Master | Electrician Flanders | Available 24/7",
     description:
       "Professional electrician in Flanders. Available 24/7 for emergencies, installations, repairs, and smart home. Call now for fast service!",
     heroTitle: "Your Trusted Electrician in Flanders",
