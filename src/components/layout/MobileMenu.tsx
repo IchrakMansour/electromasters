@@ -25,7 +25,9 @@ export function MobileMenu() {
   ];
 
   return (
-    <div className="lg:hidden">
+    <div className="flex items-center gap-2 lg:hidden">
+      <ThemeToggle />
+      <LanguageSwitcher />
       <button
         onClick={() => {
           const opening = !isOpen;
@@ -82,10 +84,6 @@ export function MobileMenu() {
             </svg>
             {company.phone}
           </a>
-          <div className="mt-4 flex items-center gap-3">
-            <ThemeToggle />
-            <LanguageSwitcher />
-          </div>
         </nav>
       </div>
     </div>

@@ -37,7 +37,7 @@ export function Logo({ size = "md", variant = "color", className }: LogoProps) {
         width={s.width}
         height={s.height}
         priority
-        className={cn("block dark:hidden", className)}
+        className={cn("logo-light", className)}
       />
       <Image
         src="/logo-dark.svg"
@@ -45,7 +45,7 @@ export function Logo({ size = "md", variant = "color", className }: LogoProps) {
         width={s.width}
         height={s.height}
         priority
-        className={cn("hidden dark:block", className)}
+        className={cn("logo-dark", className)}
       />
     </>
   );

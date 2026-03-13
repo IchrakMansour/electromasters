@@ -96,6 +96,20 @@ body {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.4) !important;
 }
 
+/* Logo: prevent flash on reload by matching both prefers-color-scheme and .dark class */
+.logo-light { display: block; }
+.logo-dark  { display: none;  }
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) .logo-light { display: none;  }
+  html:not(.light) .logo-dark  { display: block; }
+}
+
+.dark .logo-light { display: none !important;  }
+.dark .logo-dark  { display: block !important; }
+.light .logo-light { display: block !important; }
+.light .logo-dark  { display: none !important;  }
+
 html {
   scroll-behavior: smooth;
 }
