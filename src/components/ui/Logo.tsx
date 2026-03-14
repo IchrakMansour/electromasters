@@ -30,7 +30,7 @@ export function Logo({ size = "md", variant = "color", className }: LogoProps) {
   }
 
   return (
-    <div style={{ width: s.width, height: s.height }} className="relative">
+    <>
       <Image
         src="/logo.svg"
         alt="Elektro Master"
@@ -45,8 +45,8 @@ export function Logo({ size = "md", variant = "color", className }: LogoProps) {
         width={s.width}
         height={s.height}
         priority
-        className={cn("logo-dark absolute top-0 left-0", className)}
+        className={cn("logo-dark", className)}
       />
-    </div>
+    </>
   );
 }
