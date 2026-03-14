@@ -1,5 +1,9 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 interface LogoProps {
   size?: "sm" | "md" | "lg";
@@ -15,6 +19,10 @@ const sizes = {
 
 export function Logo({ size = "md", variant = "color", className }: LogoProps) {
   const s = sizes[size];
+  const { resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
 
   if (variant === "white") {
     return (
@@ -29,24 +37,16 @@ export function Logo({ size = "md", variant = "color", className }: LogoProps) {
     );
   }
 
+  const src = mounted && resolvedTheme === "dark" ? "/logo-dark.svg" : "/logo.svg";
+
   return (
-    <>
-      <Image
-        src="/logo.svg"
-        alt="Elektro Master"
-        width={s.width}
-        height={s.height}
-        priority
-        className={cn("logo-light", className)}
-      />
-      <Image
-        src="/logo-dark.svg"
-        alt="Elektro Master"
-        width={s.width}
-        height={s.height}
-        priority
-        className={cn("logo-dark", className)}
-      />
-    </>
+    <Image
+      src={src}
+      alt="Elektro Master"
+      width={s.width}
+      height={s.height}
+      priority
+      className={className}
+    />
   );
 }
