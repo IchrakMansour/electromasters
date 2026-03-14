@@ -10,29 +10,41 @@ import { Button } from "@/components/ui/Button";
 export function ContactForm() {
   const t = useTranslations("contact");
   const locale = useLocale() as Locale;
-  const [result, setResult] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setResult("Verzenden...");
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    setError("");
 
-    const formData = new FormData(event.target as HTMLFormElement);
-    formData.append("access_key", "86721aad-4bc0-4fc5-b0d6-0627cacaac04");
-    formData.append("subject", `Nieuw contactformulier van ${formData.get("name")}`);
+    const form = e.currentTarget;
+    const data = {
+      name: (form.elements.namedItem("name") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
+      service: (form.elements.namedItem("service") as HTMLSelectElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+      source: "website",
+    };
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
-
-    const data = await response.json();
-
-    if (data.success) {
-      setSubmitted(true);
-      (event.target as HTMLFormElement).reset();
-    } else {
-      setResult("Er is iets misgegaan. Probeer het opnieuw of bel ons direct.");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      const result = await res.json();
+      if (result.success) {
+        setSubmitted(true);
+      } else {
+        setError("Er is iets misgegaan. Probeer het opnieuw of bel ons direct.");
+      }
+    } catch {
+      setError("Er is iets misgegaan. Probeer het opnieuw of bel ons direct.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -60,7 +72,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={onSubmit} className="space-y-6">
+    <form onSubmit={handleSubmit} className="space-y-6">
       <div>
         <label
           htmlFor="name"
@@ -146,12 +158,12 @@ export function ContactForm() {
         />
       </div>
 
-      {result && result !== "Verzenden..." && (
-        <p className="text-sm text-red-600">{result}</p>
+      {error && (
+        <p className="text-sm text-red-600">{error}</p>
       )}
 
-      <Button type="submit" size="lg" className="w-full" disabled={result === "Verzenden..."}>
-        {result === "Verzenden..." ? "Verzenden..." : t("formSubmit")}
+      <Button type="submit" size="lg" className="w-full" disabled={loading}>
+        {loading ? "Verzenden..." : t("formSubmit")}
       </Button>
 
       <div className="flex items-center gap-3 pt-2">
