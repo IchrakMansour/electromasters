@@ -1,28 +1,58 @@
 import { NextRequest, NextResponse } from "next/server";
+import nodemailer from "nodemailer";
+
+const transporter = nodemailer.createTransport({
+  host: "send.one.com",
+  port: 465,
+  secure: true,
+  auth: {
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASSWORD,
+  },
+});
+
+const RECIPIENT_MAP: Record<string, string> = {
+  default: "info@elektromaster.be",
+};
 
 export async function POST(req: NextRequest) {
-  const body = await req.json();
+  try {
+    const body = await req.json();
+    const { name, email, phone, service, message, source } = body;
 
-  const response = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      access_key: process.env.WEB3FORMS_ACCESS_KEY,
-      from_name: body.name,
-      email: body.email,
-      phone: body.phone || "",
-      service: body.service || "",
-      message: body.message,
-      subject: `Nieuw contactformulier: ${body.name}`,
-      to_email: "info@elektromaster.be",
-    }),
-  });
+    if (!name || !email || !message) {
+      return NextResponse.json(
+        { success: false, error: "Missing required fields" },
+        { status: 400 }
+      );
+    }
 
-  const data = await response.json();
+    const toEmail = RECIPIENT_MAP[source as string] ?? RECIPIENT_MAP.default;
 
-  if (data.success) {
+    await transporter.sendMail({
+      from: `"${name}" <${process.env.SMTP_USER}>`,
+      to: toEmail,
+      replyTo: email,
+      subject: `Nieuw contactformulier: ${name}`,
+      html: `
+        <h2>Nieuw contactformulier</h2>
+        <p><strong>Naam:</strong> ${name}</p>
+        <p><strong>E-mail:</strong> ${email}</p>
+        <p><strong>Telefoon:</strong> ${phone || "Niet opgegeven"}</p>
+        <p><strong>Dienst:</strong> ${service || "Niet opgegeven"}</p>
+        <hr />
+        <p><strong>Bericht:</strong></p>
+        <p>${message.replace(/\n/g, "<br />")}</p>
+      `,
+    });
+
     return NextResponse.json({ success: true });
-  } else {
-    return NextResponse.json({ success: false, error: data.message }, { status: 500 });
+  } catch (error) {
+    const errMsg = error instanceof Error ? error.message : String(error);
+    console.error("Email send error:", errMsg);
+    return NextResponse.json(
+      { success: false, error: errMsg },
+      { status: 500 }
+    );
   }
 }
