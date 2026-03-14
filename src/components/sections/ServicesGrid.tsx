@@ -9,7 +9,7 @@ export function ServicesGrid() {
   const locale = useLocale() as Locale;
 
   return (
-    <section className="border-t border-gray-100 bg-gray-50/50 py-16 lg:py-24">
+    <section className="border-t border-gray-100 bg-white py-16 lg:py-24">
       <Container>
         <div className="mb-10 text-center">
           <h2 className="mb-3 text-3xl font-bold text-gray-900">
