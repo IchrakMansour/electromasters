@@ -8,6 +8,7 @@ import { company } from "@/data/company";
 import type { Locale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,10 +25,12 @@ export function MobileMenu() {
   ];
 
   return (
-    <div className="lg:hidden">
+    <div className="flex items-center gap-2 lg:hidden">
+      <ThemeToggle />
+      <LanguageSwitcher />
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-accent-100 hover:text-primary-500 transition-colors"
+        className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 dark:text-gray-200 hover:bg-accent-100 dark:hover:bg-gray-700 hover:text-primary-500 transition-colors"
         aria-expanded={isOpen}
         aria-label="Toggle menu"
       >
@@ -53,7 +56,7 @@ export function MobileMenu() {
       {/* Menu panel */}
       <div
         className={cn(
-          "fixed inset-y-0 right-0 top-16 z-40 w-full max-w-sm bg-white shadow-xl transition-transform duration-300 ease-in-out lg:hidden",
+          "fixed inset-y-0 right-0 top-16 z-40 w-full max-w-sm bg-white dark:bg-gray-900 shadow-xl transition-transform duration-300 ease-in-out lg:hidden",
           isOpen ? "translate-x-0" : "translate-x-full"
         )}
       >
@@ -62,7 +65,7 @@ export function MobileMenu() {
             <Link
               key={item.href}
               href={item.href}
-              className="border-b border-accent-100 py-3 text-base font-medium text-gray-700 hover:text-primary-500 transition-colors"
+              className="border-b border-accent-100 dark:border-gray-700 py-3 text-base font-medium text-gray-700 dark:text-gray-200 hover:text-primary-500 transition-colors"
               onClick={() => setIsOpen(false)}
             >
               {item.label}
@@ -77,9 +80,6 @@ export function MobileMenu() {
             </svg>
             {company.phone}
           </a>
-          <div className="mt-4">
-            <LanguageSwitcher />
-          </div>
         </nav>
       </div>
     </div>
