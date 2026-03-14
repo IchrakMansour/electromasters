@@ -36,10 +36,10 @@ export function HeroSection({
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-sm font-medium text-white">
-            <span className="relative flex h-2 w-2">
+          <div className="mb-4 inline-flex items-center gap-4 rounded-full border border-white/30 bg-white/10 px-8 py-3 text-xl font-medium text-white">
+            <span className="relative flex h-4 w-4">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400" />
+              <span className="relative inline-flex h-4 w-4 rounded-full bg-green-400" />
             </span>
             {t("available247")}
           </div>

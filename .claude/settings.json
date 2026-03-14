@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \":*)",
+      "Bash(node -e \"const fs=require\\(''fs''\\);const files=[''src/lib/metadata.ts'',''src/app/layout.tsx'',''src/components/sections/Testimonials.tsx'',''src/app/[locale]/page.tsx''];files.forEach\\(f=>{try{const o=fs.readFileSync\\(f,''utf8''\\);const r=o.replace\\(/Electro Masters/g,''Elektro Master''\\);if\\(o!==r\\){fs.writeFileSync\\(f,r,''utf8''\\);console.log\\(''Updated ''+f\\);}else{console.log\\(''No changes: ''+f\\);}}catch\\(e\\){console.log\\(''Error: ''+f+'' ''+e.message\\);}}\\);\")"
+    ]
+  }
+}

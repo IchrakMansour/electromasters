@@ -14,7 +14,7 @@ export const services: Service[] = [
       nl: {
         title: "Spoedelektricien",
         metaTitle:
-          "Noodelektricien | 24/7 Spoeddienst Elektricien | Electro Masters",
+          "Noodelektricien | 24/7 Spoeddienst Elektricien | Elektro Master",
         metaDescription:
           "Elektriciteit uitgevallen? Onze noodelektricien is 24/7 bereikbaar in heel Vlaanderen. Snelle interventie bij stroomuitval, kortsluiting en elektrische noodgevallen. Bel nu!",
         h1: "Spoedelectricien - 24/7 Beschikbaar in Vlaanderen",
@@ -27,7 +27,7 @@ export const services: Service[] = [
           },
           {
             heading: "Onze spoeddienst: snel, veilig en betrouwbaar",
-            body: "Bij Electro Masters begrijpen we dat een elektrisch noodgeval stress en ongerustheid veroorzaakt. Daarom hebben we ons spoedproces geoptimaliseerd voor maximale snelheid en efficiëntie. Wanneer u belt, neemt een ervaren medewerker uw oproep aan en beoordeelt de urgentie van de situatie. Vervolgens wordt de dichtstbijzijnde beschikbare elektricien onmiddellijk naar uw locatie gestuurd. Onze servicevoertuigen zijn volledig uitgerust met alle benodigde materialen en gereedschappen, zodat de meeste problemen ter plaatse kunnen worden opgelost zonder vertraging. Na de interventie ontvangt u een helder rapport met een beschrijving van het probleem, de uitgevoerde werkzaamheden en eventuele aanbevelingen voor preventief onderhoud.",
+            body: "Bij Elektro Master begrijpen we dat een elektrisch noodgeval stress en ongerustheid veroorzaakt. Daarom hebben we ons spoedproces geoptimaliseerd voor maximale snelheid en efficiëntie. Wanneer u belt, neemt een ervaren medewerker uw oproep aan en beoordeelt de urgentie van de situatie. Vervolgens wordt de dichtstbijzijnde beschikbare elektricien onmiddellijk naar uw locatie gestuurd. Onze servicevoertuigen zijn volledig uitgerust met alle benodigde materialen en gereedschappen, zodat de meeste problemen ter plaatse kunnen worden opgelost zonder vertraging. Na de interventie ontvangt u een helder rapport met een beschrijving van het probleem, de uitgevoerde werkzaamheden en eventuele aanbevelingen voor preventief onderhoud.",
           },
           {
             heading: "Veelvoorkomende elektrische noodgevallen",
@@ -39,7 +39,7 @@ export const services: Service[] = [
           },
           {
             heading: "Tarieven en transparantie",
-            body: "Bij Electro Masters hanteren we transparante tarieven, ook voor spoedinterventies. Voordat we beginnen met de werkzaamheden, ontvangt u altijd een duidelijke prijsopgave. Wij rekenen een vast voorrijdtarief en transparante uurtarieven. Er zijn geen verborgen kosten — wat we afspreken, is wat u betaalt. Voor spoedinterventies buiten kantooruren geldt een toeslag, maar ook deze wordt vooraf gecommuniceerd. Wij geloven dat transparantie over kosten essentieel is, vooral in stressvolle noodsituaties. Vraag gerust naar onze tarieven wanneer u belt.",
+            body: "Bij Elektro Master hanteren we transparante tarieven, ook voor spoedinterventies. Voordat we beginnen met de werkzaamheden, ontvangt u altijd een duidelijke prijsopgave. Wij rekenen een vast voorrijdtarief en transparante uurtarieven. Er zijn geen verborgen kosten — wat we afspreken, is wat u betaalt. Voor spoedinterventies buiten kantooruren geldt een toeslag, maar ook deze wordt vooraf gecommuniceerd. Wij geloven dat transparantie over kosten essentieel is, vooral in stressvolle noodsituaties. Vraag gerust naar onze tarieven wanneer u belt.",
           },
         ],
         faqs: [
@@ -76,12 +76,12 @@ export const services: Service[] = [
       fr: {
         title: "Électricien d'urgence",
         metaTitle:
-          "Électricien d'urgence | Service 24/7 | Electro Masters",
+          "Électricien d'urgence | Service 24/7 | Elektro Master",
         metaDescription:
           "Panne d'électricité? Notre électricien d'urgence est disponible 24h/24 et 7j/7 en Flandre. Intervention rapide pour pannes de courant, courts-circuits et urgences électriques.",
         h1: "Électricien d'urgence - Disponible 24/7 en Flandre",
         intro:
-          "Vous êtes soudainement sans courant? Vous faites face à un court-circuit, des étincelles ou une odeur de brûlé provenant de votre tableau électrique? Dans les situations d'urgence, chaque minute compte. Electro Masters offre un service d'urgence électrique 24h/24 et 7j/7 dans toute la Flandre. Nos électriciens d'urgence certifiés sont prêts jour et nuit pour vous aider rapidement et professionnellement. Nous comprenons que les problèmes électriques n'attendent pas les heures de bureau — c'est pourquoi nous sommes toujours joignables, y compris les week-ends et jours fériés. Avec des temps d'arrivée moyens de moins de 45 minutes dans la plupart des villes flamandes, vous êtes assuré d'une aide rapide et professionnelle.",
+          "Vous êtes soudainement sans courant? Vous faites face à un court-circuit, des étincelles ou une odeur de brûlé provenant de votre tableau électrique? Dans les situations d'urgence, chaque minute compte. Elektro Master offre un service d'urgence électrique 24h/24 et 7j/7 dans toute la Flandre. Nos électriciens d'urgence certifiés sont prêts jour et nuit pour vous aider rapidement et professionnellement. Nous comprenons que les problèmes électriques n'attendent pas les heures de bureau — c'est pourquoi nous sommes toujours joignables, y compris les week-ends et jours fériés. Avec des temps d'arrivée moyens de moins de 45 minutes dans la plupart des villes flamandes, vous êtes assuré d'une aide rapide et professionnelle.",
         sections: [
           {
             heading: "Quand avez-vous besoin d'un électricien d'urgence?",
@@ -89,7 +89,7 @@ export const services: Service[] = [
           },
           {
             heading: "Notre service d'urgence: rapide, sûr et fiable",
-            body: "Chez Electro Masters, nous comprenons qu'une urgence électrique cause du stress et de l'inquiétude. C'est pourquoi nous avons optimisé notre processus d'urgence pour une rapidité et une efficacité maximales. Lorsque vous appelez, un collaborateur expérimenté prend votre appel et évalue l'urgence de la situation. L'électricien disponible le plus proche est ensuite immédiatement envoyé à votre emplacement. Nos véhicules de service sont entièrement équipés de tout le matériel et les outils nécessaires, de sorte que la plupart des problèmes peuvent être résolus sur place sans délai. Après l'intervention, vous recevez un rapport clair décrivant le problème, les travaux effectués et les éventuelles recommandations d'entretien préventif.",
+            body: "Chez Elektro Master, nous comprenons qu'une urgence électrique cause du stress et de l'inquiétude. C'est pourquoi nous avons optimisé notre processus d'urgence pour une rapidité et une efficacité maximales. Lorsque vous appelez, un collaborateur expérimenté prend votre appel et évalue l'urgence de la situation. L'électricien disponible le plus proche est ensuite immédiatement envoyé à votre emplacement. Nos véhicules de service sont entièrement équipés de tout le matériel et les outils nécessaires, de sorte que la plupart des problèmes peuvent être résolus sur place sans délai. Après l'intervention, vous recevez un rapport clair décrivant le problème, les travaux effectués et les éventuelles recommandations d'entretien préventif.",
           },
           {
             heading: "Urgences électriques courantes",
@@ -101,7 +101,7 @@ export const services: Service[] = [
           },
           {
             heading: "Tarifs et transparence",
-            body: "Chez Electro Masters, nous pratiquons des tarifs transparents, même pour les interventions d'urgence. Avant de commencer les travaux, vous recevez toujours un devis clair. Nous facturons des frais de déplacement fixes et des tarifs horaires transparents. Il n'y a pas de coûts cachés — ce que nous convenons est ce que vous payez. Pour les interventions d'urgence en dehors des heures de bureau, un supplément s'applique, mais celui-ci est également communiqué à l'avance. Nous croyons que la transparence des coûts est essentielle, surtout dans les situations d'urgence stressantes.",
+            body: "Chez Elektro Master, nous pratiquons des tarifs transparents, même pour les interventions d'urgence. Avant de commencer les travaux, vous recevez toujours un devis clair. Nous facturons des frais de déplacement fixes et des tarifs horaires transparents. Il n'y a pas de coûts cachés — ce que nous convenons est ce que vous payez. Pour les interventions d'urgence en dehors des heures de bureau, un supplément s'applique, mais celui-ci est également communiqué à l'avance. Nous croyons que la transparence des coûts est essentielle, surtout dans les situations d'urgence stressantes.",
           },
         ],
         faqs: [
@@ -139,12 +139,12 @@ export const services: Service[] = [
       en: {
         title: "Emergency Electrician",
         metaTitle:
-          "Emergency Electrician | 24/7 Service | Electro Masters",
+          "Emergency Electrician | 24/7 Service | Elektro Master",
         metaDescription:
           "Power outage? Our emergency electrician is available 24/7 across Flanders. Fast response for power failures, short circuits, and electrical emergencies. Call now!",
         h1: "Emergency Electrician - Available 24/7 in Flanders",
         intro:
-          "Suddenly without power? Dealing with a short circuit, sparks, or a burning smell from your fuse box? In emergencies, every minute counts. Electro Masters provides a 24/7 emergency electrical service across all of Flanders. Our certified emergency electricians are ready day and night to help you quickly and professionally. We understand that electrical problems don't wait for office hours — that's why we're always available, including weekends and holidays. With average arrival times of less than 45 minutes in most Flemish cities, you're assured of fast, professional help when you need it most.",
+          "Suddenly without power? Dealing with a short circuit, sparks, or a burning smell from your fuse box? In emergencies, every minute counts. Elektro Master provides a 24/7 emergency electrical service across all of Flanders. Our certified emergency electricians are ready day and night to help you quickly and professionally. We understand that electrical problems don't wait for office hours — that's why we're always available, including weekends and holidays. With average arrival times of less than 45 minutes in most Flemish cities, you're assured of fast, professional help when you need it most.",
         sections: [
           {
             heading: "When do you need an emergency electrician?",
@@ -152,7 +152,7 @@ export const services: Service[] = [
           },
           {
             heading: "Our emergency service: fast, safe, and reliable",
-            body: "At Electro Masters, we understand that an electrical emergency causes stress and worry. That's why we've optimized our emergency process for maximum speed and efficiency. When you call, an experienced representative takes your call and assesses the urgency of the situation. The nearest available electrician is then immediately dispatched to your location. Our service vehicles are fully equipped with all necessary materials and tools, so most problems can be resolved on-site without delay. After the intervention, you receive a clear report describing the problem, the work performed, and any recommendations for preventive maintenance.",
+            body: "At Elektro Master, we understand that an electrical emergency causes stress and worry. That's why we've optimized our emergency process for maximum speed and efficiency. When you call, an experienced representative takes your call and assesses the urgency of the situation. The nearest available electrician is then immediately dispatched to your location. Our service vehicles are fully equipped with all necessary materials and tools, so most problems can be resolved on-site without delay. After the intervention, you receive a clear report describing the problem, the work performed, and any recommendations for preventive maintenance.",
           },
           {
             heading: "Common electrical emergencies",
@@ -164,7 +164,7 @@ export const services: Service[] = [
           },
           {
             heading: "Pricing and transparency",
-            body: "At Electro Masters, we maintain transparent pricing, even for emergency interventions. Before we begin work, you always receive a clear price quote. We charge a fixed call-out fee and transparent hourly rates. There are no hidden costs — what we agree on is what you pay. For emergency interventions outside office hours, a surcharge applies, but this is also communicated in advance. We believe cost transparency is essential, especially in stressful emergency situations. Feel free to ask about our rates when you call.",
+            body: "At Elektro Master, we maintain transparent pricing, even for emergency interventions. Before we begin work, you always receive a clear price quote. We charge a fixed call-out fee and transparent hourly rates. There are no hidden costs — what we agree on is what you pay. For emergency interventions outside office hours, a surcharge applies, but this is also communicated in advance. We believe cost transparency is essential, especially in stressful emergency situations. Feel free to ask about our rates when you call.",
           },
         ],
         faqs: [
@@ -212,9 +212,9 @@ export const services: Service[] = [
       nl: {
         title: "Elektrische Installatie",
         metaTitle:
-          "Elektrische Installatie | Professionele Elektricien | Electro Masters",
+          "Elektrische Installatie | Professionele Elektricien | Elektro Master",
         metaDescription:
-          "Professionele elektrische installatie in Vlaanderen. Nieuwbouw, renovatie of uitbreiding? Electro Masters zorgt voor veilige en conforme elektrische installaties.",
+          "Professionele elektrische installatie in Vlaanderen. Nieuwbouw, renovatie of uitbreiding? Elektro Master zorgt voor veilige en conforme elektrische installaties.",
         h1: "Professionele Elektrische Installatie in Vlaanderen",
         intro:
           "Nieuwbouw, renovatie of commerciële installatie? Wij voorzien uw pand van veilige en efficiënte elektriciteit.",
@@ -233,28 +233,23 @@ export const services: Service[] = [
           },
           {
             heading: "Keuring en conformiteit",
-            body: "Elke nieuwe of gerenoveerde elektrische installatie in België moet worden gekeurd door een erkend keuringsorganisme. Electro Masters zorgt ervoor dat uw installatie van bij het begin conform is, zodat de keuring vlot verloopt. Wij bereiden alle benodigde documentatie voor, waaronder het eendraadschema en het situatieplan, en begeleiden u door het volledige keuringsproces. Mocht er bij een keuring een inbreuk worden vastgesteld, dan lossen wij deze snel en vakkundig op. Onze doelstelling is om elke installatie in één keer door de keuring te krijgen.",
+            body: "Elke nieuwe of gerenoveerde elektrische installatie in België moet worden gekeurd door een erkend keuringsorganisme. Elektro Master zorgt ervoor dat uw installatie van bij het begin conform is, zodat de keuring vlot verloopt. Wij bereiden alle benodigde documentatie voor, waaronder het eendraadschema en het situatieplan, en begeleiden u door het volledige keuringsproces. Mocht er bij een keuring een inbreuk worden vastgesteld, dan lossen wij deze snel en vakkundig op. Onze doelstelling is om elke installatie in één keer door de keuring te krijgen.",
           },
           {
-            heading: "Waarom kiezen voor Electro Masters?",
-            body: "Electro Masters onderscheidt zich door vakmanschap, betrouwbaarheid en klanttevredenheid. Al onze elektriciens zijn erkend en volgen regelmatig bijscholingen om op de hoogte te blijven van de nieuwste technieken en regelgeving. Wij werken uitsluitend met kwalitatieve materialen van gerenommeerde merken. Elke installatie wordt uitgevoerd met oog voor detail en met respect voor uw woning of bedrijfspand. Na afloop van de werkzaamheden laten we de werkplek netjes achter. Vraag vandaag nog een vrijblijvende offerte aan en ontdek het verschil.",
+            heading: "Waarom kiezen voor Elektro Master?",
+            body: "Elektro Master onderscheidt zich door vakmanschap, betrouwbaarheid en klanttevredenheid. Al onze elektriciens zijn erkend en volgen regelmatig bijscholingen om op de hoogte te blijven van de nieuwste technieken en regelgeving. Wij werken uitsluitend met kwalitatieve materialen van gerenommeerde merken. Elke installatie wordt uitgevoerd met oog voor detail en met respect voor uw woning of bedrijfspand. Na afloop van de werkzaamheden laten we de werkplek netjes achter. Vraag vandaag nog een vrijblijvende offerte aan en ontdek het verschil.",
           },
         ],
         faqs: [
           {
             question: "Hoelang duurt een volledige elektrische installatie?",
             answer:
-              "De duur hangt af van de grootte en complexiteit van het project. Een gemiddelde woning duurt 3 tot 5 werkdagen. Grotere projecten worden vooraf in detail ingepland.",
+              "De duur hangt af van de grootte en complexiteit van het project. Een gemiddelde woning duurt 2 tot 5 werkdagen. Grotere projecten worden vooraf in detail ingepland.",
           },
           {
             question: "Is een keuring verplicht na een nieuwe installatie?",
             answer:
               "Ja, elke nieuwe elektrische installatie in België moet worden gekeurd door een erkend keuringsorganisme voordat deze in gebruik wordt genomen.",
-          },
-          {
-            question: "Werken jullie ook met domotica en smart home?",
-            answer:
-              "Ja, wij kunnen uw elektrische installatie voorbereiden voor of integreren met smart home systemen, inclusief slimme verlichting, thermostaten en beveiligingssystemen.",
           },
           {
             question: "Kan ik een offerte aanvragen?",
@@ -266,12 +261,12 @@ export const services: Service[] = [
       fr: {
         title: "Installation Électrique",
         metaTitle:
-          "Installation Électrique | Électricien Professionnel | Electro Masters",
+          "Installation Électrique | Électricien Professionnel | Elektro Master",
         metaDescription:
-          "Installation électrique professionnelle en Flandre. Construction neuve, rénovation ou extension? Electro Masters assure des installations électriques sûres et conformes.",
+          "Installation électrique professionnelle en Flandre. Construction neuve, rénovation ou extension? Elektro Master assure des installations électriques sûres et conformes.",
         h1: "Installation Électrique Professionnelle en Flandre",
         intro:
-          "Que vous construisiez une maison neuve, rénoviez votre habitation existante ou souhaitiez équiper un local commercial en électricité — une installation électrique professionnelle est la base de votre confort et de votre sécurité. Chez Electro Masters, nous disposons d'années d'expérience dans la conception et la réalisation d'installations électriques complètes conformes à toutes les normes et réglementations belges. Nos électriciens agréés travaillent avec précision, propreté et toujours en concertation avec vous, afin que le résultat final corresponde parfaitement à vos souhaits et besoins.",
+          "Que vous construisiez une maison neuve, rénoviez votre habitation existante ou souhaitiez équiper un local commercial en électricité — une installation électrique professionnelle est la base de votre confort et de votre sécurité. Chez Elektro Master, nous disposons d'années d'expérience dans la conception et la réalisation d'installations électriques complètes conformes à toutes les normes et réglementations belges. Nos électriciens agréés travaillent avec précision, propreté et toujours en concertation avec vous, afin que le résultat final corresponde parfaitement à vos souhaits et besoins.",
         sections: [
           {
             heading: "Installation électrique pour constructions neuves",
@@ -287,11 +282,11 @@ export const services: Service[] = [
           },
           {
             heading: "Contrôle et conformité",
-            body: "Toute installation électrique neuve ou rénovée en Belgique doit être contrôlée par un organisme de contrôle agréé. Electro Masters veille à ce que votre installation soit conforme dès le départ, pour que le contrôle se déroule sans problème. Nous préparons toute la documentation nécessaire, y compris le schéma unifilaire et le plan de situation, et vous accompagnons tout au long du processus de contrôle.",
+            body: "Toute installation électrique neuve ou rénovée en Belgique doit être contrôlée par un organisme de contrôle agréé. Elektro Master veille à ce que votre installation soit conforme dès le départ, pour que le contrôle se déroule sans problème. Nous préparons toute la documentation nécessaire, y compris le schéma unifilaire et le plan de situation, et vous accompagnons tout au long du processus de contrôle.",
           },
           {
-            heading: "Pourquoi choisir Electro Masters?",
-            body: "Electro Masters se distingue par son savoir-faire, sa fiabilité et la satisfaction de ses clients. Tous nos électriciens sont agréés et suivent régulièrement des formations continues pour rester au courant des dernières techniques et réglementations. Nous travaillons exclusivement avec des matériaux de qualité de marques réputées. Chaque installation est réalisée avec le souci du détail et dans le respect de votre habitation ou local commercial. Demandez dès aujourd'hui un devis gratuit et sans engagement.",
+            heading: "Pourquoi choisir Elektro Master?",
+            body: "Elektro Master se distingue par son savoir-faire, sa fiabilité et la satisfaction de ses clients. Tous nos électriciens sont agréés et suivent régulièrement des formations continues pour rester au courant des dernières techniques et réglementations. Nous travaillons exclusivement avec des matériaux de qualité de marques réputées. Chaque installation est réalisée avec le souci du détail et dans le respect de votre habitation ou local commercial. Demandez dès aujourd'hui un devis gratuit et sans engagement.",
           },
         ],
         faqs: [
@@ -322,12 +317,12 @@ export const services: Service[] = [
       en: {
         title: "Electrical Installation",
         metaTitle:
-          "Electrical Installation | Professional Electrician | Electro Masters",
+          "Electrical Installation | Professional Electrician | Elektro Master",
         metaDescription:
-          "Professional electrical installation in Flanders. New construction, renovation, or expansion? Electro Masters ensures safe and compliant electrical installations.",
+          "Professional electrical installation in Flanders. New construction, renovation, or expansion? Elektro Master ensures safe and compliant electrical installations.",
         h1: "Professional Electrical Installation in Flanders",
         intro:
-          "Whether you're building a new home, renovating your existing property, or equipping a commercial space with electricity — a professional electrical installation is the foundation of your comfort and safety. At Electro Masters, we have years of experience designing and implementing complete electrical installations that comply with all Belgian standards and regulations. Our certified electricians work precisely, neatly, and always in consultation with you, ensuring the end result perfectly matches your wishes and needs.",
+          "Whether you're building a new home, renovating your existing property, or equipping a commercial space with electricity — a professional electrical installation is the foundation of your comfort and safety. At Elektro Master, we have years of experience designing and implementing complete electrical installations that comply with all Belgian standards and regulations. Our certified electricians work precisely, neatly, and always in consultation with you, ensuring the end result perfectly matches your wishes and needs.",
         sections: [
           {
             heading: "Electrical installation for new construction",
@@ -343,11 +338,11 @@ export const services: Service[] = [
           },
           {
             heading: "Inspection and compliance",
-            body: "Every new or renovated electrical installation in Belgium must be inspected by an approved inspection body. Electro Masters ensures your installation is compliant from the start, so the inspection goes smoothly. We prepare all necessary documentation, including the single-line diagram and situation plan, and guide you through the complete inspection process.",
+            body: "Every new or renovated electrical installation in Belgium must be inspected by an approved inspection body. Elektro Master ensures your installation is compliant from the start, so the inspection goes smoothly. We prepare all necessary documentation, including the single-line diagram and situation plan, and guide you through the complete inspection process.",
           },
           {
-            heading: "Why choose Electro Masters?",
-            body: "Electro Masters stands out through craftsmanship, reliability, and customer satisfaction. All our electricians are certified and regularly attend training courses to stay up to date with the latest techniques and regulations. We exclusively use quality materials from reputable brands. Every installation is carried out with attention to detail and respect for your property. Request a free, no-obligation quote today and discover the difference.",
+            heading: "Why choose Elektro Master?",
+            body: "Elektro Master stands out through craftsmanship, reliability, and customer satisfaction. All our electricians are certified and regularly attend training courses to stay up to date with the latest techniques and regulations. We exclusively use quality materials from reputable brands. Every installation is carried out with attention to detail and respect for your property. Request a free, no-obligation quote today and discover the difference.",
           },
         ],
         faqs: [
@@ -389,12 +384,12 @@ export const services: Service[] = [
       nl: {
         title: "Elektrische Herstellingen",
         metaTitle:
-          "Elektrische Herstellingen | Reparatie & Onderhoud | Electro Masters",
+          "Elektrische Herstellingen | Reparatie & Onderhoud | Elektro Master",
         metaDescription:
-          "Professionele elektrische herstellingen in Vlaanderen. Kortsluiting, defecte stopcontacten, kapotte verlichting? Electro Masters repareert snel en vakkundig.",
+          "Professionele elektrische herstellingen in Vlaanderen. Kortsluiting, defecte stopcontacten, kapotte verlichting? Elektro Master repareert snel en vakkundig.",
         h1: "Elektrische Herstellingen en Reparaties in Vlaanderen",
         intro:
-          "Elektrische problemen kunnen het dagelijks leven aanzienlijk verstoren. Of het nu gaat om een defect stopcontact, een kapotte lichtschakelaar, een springende zekering of een complexer probleem met uw elektrische installatie — Electro Masters staat klaar om elk elektrisch probleem snel en vakkundig op te lossen. Onze ervaren elektriciens diagnosticeren de oorzaak van het probleem nauwkeurig en voeren duurzame reparaties uit die voldoen aan alle veiligheidsnormen. Wij geloven dat een goede reparatie niet alleen het symptoom aanpakt, maar ook de onderliggende oorzaak wegneemt, zodat u niet opnieuw met hetzelfde probleem te maken krijgt.",
+          "Elektrische problemen kunnen het dagelijks leven aanzienlijk verstoren. Of het nu gaat om een defect stopcontact, een kapotte lichtschakelaar, een springende zekering of een complexer probleem met uw elektrische installatie — Elektro Master staat klaar om elk elektrisch probleem snel en vakkundig op te lossen. Onze ervaren elektriciens diagnosticeren de oorzaak van het probleem nauwkeurig en voeren duurzame reparaties uit die voldoen aan alle veiligheidsnormen. Wij geloven dat een goede reparatie niet alleen het symptoom aanpakt, maar ook de onderliggende oorzaak wegneemt, zodat u niet opnieuw met hetzelfde probleem te maken krijgt.",
         sections: [
           {
             heading: "Veelvoorkomende elektrische problemen",
@@ -406,7 +401,7 @@ export const services: Service[] = [
           },
           {
             heading: "Preventief onderhoud",
-            body: "Veel elektrische problemen kunnen worden voorkomen door regelmatig onderhoud. Electro Masters biedt preventieve onderhoudscontracten aan voor zowel particulieren als bedrijven. Tijdens een onderhoudsbeurt controleren we alle kritieke componenten van uw installatie, verstrengelen we losse verbindingen, controleren we de werking van aardlekschakelaars en zekeringen, en identificeren we potentiële problemen voordat ze tot storingen leiden. Regelmatig onderhoud verlengt de levensduur van uw installatie en vermindert het risico op onverwachte storingen en kostbare noodreparaties.",
+            body: "Veel elektrische problemen kunnen worden voorkomen door regelmatig onderhoud. Elektro Master biedt preventieve onderhoudscontracten aan voor zowel particulieren als bedrijven. Tijdens een onderhoudsbeurt controleren we alle kritieke componenten van uw installatie, verstrengelen we losse verbindingen, controleren we de werking van aardlekschakelaars en zekeringen, en identificeren we potentiële problemen voordat ze tot storingen leiden. Regelmatig onderhoud verlengt de levensduur van uw installatie en vermindert het risico op onverwachte storingen en kostbare noodreparaties.",
           },
           {
             heading: "Herstellingen aan bedrijfsinstallaties",
@@ -443,12 +438,12 @@ export const services: Service[] = [
       fr: {
         title: "Réparations Électriques",
         metaTitle:
-          "Réparations Électriques | Dépannage & Entretien | Electro Masters",
+          "Réparations Électriques | Dépannage & Entretien | Elektro Master",
         metaDescription:
-          "Réparations électriques professionnelles en Flandre. Court-circuit, prises défectueuses, éclairage en panne? Electro Masters répare rapidement et professionnellement.",
+          "Réparations électriques professionnelles en Flandre. Court-circuit, prises défectueuses, éclairage en panne? Elektro Master répare rapidement et professionnellement.",
         h1: "Réparations et Dépannages Électriques en Flandre",
         intro:
-          "Les problèmes électriques peuvent considérablement perturber la vie quotidienne. Qu'il s'agisse d'une prise défectueuse, d'un interrupteur cassé, d'un disjoncteur qui saute ou d'un problème plus complexe avec votre installation électrique — Electro Masters est prêt à résoudre tout problème électrique rapidement et professionnellement. Nos électriciens expérimentés diagnostiquent précisément la cause du problème et effectuent des réparations durables conformes à toutes les normes de sécurité.",
+          "Les problèmes électriques peuvent considérablement perturber la vie quotidienne. Qu'il s'agisse d'une prise défectueuse, d'un interrupteur cassé, d'un disjoncteur qui saute ou d'un problème plus complexe avec votre installation électrique — Elektro Master est prêt à résoudre tout problème électrique rapidement et professionnellement. Nos électriciens expérimentés diagnostiquent précisément la cause du problème et effectuent des réparations durables conformes à toutes les normes de sécurité.",
         sections: [
           {
             heading: "Problèmes électriques courants",
@@ -460,7 +455,7 @@ export const services: Service[] = [
           },
           {
             heading: "Entretien préventif",
-            body: "De nombreux problèmes électriques peuvent être évités par un entretien régulier. Electro Masters propose des contrats d'entretien préventif pour les particuliers comme pour les entreprises. Lors d'un entretien, nous contrôlons tous les composants critiques de votre installation, resserrons les connexions desserrées, vérifions le fonctionnement des disjoncteurs différentiels et fusibles, et identifions les problèmes potentiels avant qu'ils ne causent des pannes.",
+            body: "De nombreux problèmes électriques peuvent être évités par un entretien régulier. Elektro Master propose des contrats d'entretien préventif pour les particuliers comme pour les entreprises. Lors d'un entretien, nous contrôlons tous les composants critiques de votre installation, resserrons les connexions desserrées, vérifions le fonctionnement des disjoncteurs différentiels et fusibles, et identifions les problèmes potentiels avant qu'ils ne causent des pannes.",
           },
           {
             heading: "Réparations pour entreprises",
@@ -499,12 +494,12 @@ export const services: Service[] = [
       en: {
         title: "Electrical Repairs",
         metaTitle:
-          "Electrical Repairs | Repair & Maintenance | Electro Masters",
+          "Electrical Repairs | Repair & Maintenance | Elektro Master",
         metaDescription:
-          "Professional electrical repairs in Flanders. Short circuits, faulty outlets, broken lighting? Electro Masters repairs quickly and expertly.",
+          "Professional electrical repairs in Flanders. Short circuits, faulty outlets, broken lighting? Elektro Master repairs quickly and expertly.",
         h1: "Electrical Repairs and Maintenance in Flanders",
         intro:
-          "Electrical problems can significantly disrupt daily life. Whether it's a faulty outlet, a broken light switch, a tripping breaker, or a more complex issue with your electrical installation — Electro Masters is ready to resolve any electrical problem quickly and professionally. Our experienced electricians accurately diagnose the cause and perform lasting repairs that meet all safety standards. We believe a good repair addresses not just the symptom but also the underlying cause, so you won't face the same problem again.",
+          "Electrical problems can significantly disrupt daily life. Whether it's a faulty outlet, a broken light switch, a tripping breaker, or a more complex issue with your electrical installation — Elektro Master is ready to resolve any electrical problem quickly and professionally. Our experienced electricians accurately diagnose the cause and perform lasting repairs that meet all safety standards. We believe a good repair addresses not just the symptom but also the underlying cause, so you won't face the same problem again.",
         sections: [
           {
             heading: "Common electrical problems",
@@ -516,7 +511,7 @@ export const services: Service[] = [
           },
           {
             heading: "Preventive maintenance",
-            body: "Many electrical problems can be prevented through regular maintenance. Electro Masters offers preventive maintenance contracts for both residential and commercial clients. During maintenance, we check all critical components of your installation, tighten loose connections, verify the operation of residual current devices and fuses, and identify potential problems before they cause failures.",
+            body: "Many electrical problems can be prevented through regular maintenance. Elektro Master offers preventive maintenance contracts for both residential and commercial clients. During maintenance, we check all critical components of your installation, tighten loose connections, verify the operation of residual current devices and fuses, and identify potential problems before they cause failures.",
           },
           {
             heading: "Business installation repairs",
@@ -553,182 +548,6 @@ export const services: Service[] = [
     },
   },
   {
-    key: "smart-home",
-    slugs: {
-      nl: "smart-home-installatie",
-      fr: "installation-maison-intelligente",
-      en: "smart-home-installation",
-    },
-    icon: "Home",
-    content: {
-      nl: {
-        title: "Smart Home Installatie",
-        metaTitle:
-          "Smart Home Installatie | Domotica Specialist | Electro Masters",
-        metaDescription:
-          "Professionele smart home installatie in Vlaanderen. Slimme verlichting, thermostaten, beveiliging en domotica. Electro Masters maakt uw woning intelligent.",
-        h1: "Smart Home Installatie en Domotica in Vlaanderen",
-        intro:
-          "De toekomst van wonen is slim. Met een professionele smart home installatie transformeert u uw woning in een intelligent, energiezuinig en comfortabel thuis. Electro Masters is uw specialist voor domotica en smart home oplossingen in Vlaanderen. Wij ontwerpen, installeren en configureren complete smart home systemen die perfect aansluiten bij uw levensstijl. Van slimme verlichting en klimaatregeling tot beveiligingssystemen en entertainment — wij integreren alle technologieën naadloos in uw woning. Onze gecertificeerde technici zorgen ervoor dat alles perfect werkt en eenvoudig te bedienen is via uw smartphone, tablet of spraakassistent.",
-        sections: [
-          {
-            heading: "Slimme verlichting",
-            body: "Slimme verlichting is vaak de eerste stap naar een smart home. Met intelligente verlichtingssystemen bestuurt u alle lampen in uw woning vanaf uw smartphone of via spraakcommando's. U kunt sfeerscènes instellen voor verschillende gelegenheden, verlichting automatisch laten schakelen op basis van aanwezigheid of tijdstip, dimbare LED-verlichting installeren die energie bespaart en sfeer creëert, buitenverlichting programmeren voor veiligheid en gemak, en kleurtemperatuur aanpassen aan het moment van de dag. Wij werken met toonaangevende merken zoals Philips Hue, Lutron en KNX om een verlichtingssysteem te creëren dat intuïtief en betrouwbaar is.",
-          },
-          {
-            heading: "Klimaatregeling en energiebeheer",
-            body: "Slimme thermostaten en klimaatsystemen bieden niet alleen meer comfort, maar kunnen ook aanzienlijk besparen op uw energiefactuur. Wij installeren en configureren slimme thermostaten die leren van uw gewoonten en automatisch de ideale temperatuur instellen, zone-verwarming waarmee u elke kamer afzonderlijk kunt regelen, integratie met zonnepanelen en thuisbatterijen voor optimaal energiebeheer, monitoring van uw energieverbruik in real-time, en automatische regeling op basis van weer, aanwezigheid en voorkeuren.",
-          },
-          {
-            heading: "Beveiliging en bewaking",
-            body: "Een slim beveiligingssysteem geeft u gemoedsrust, of u nu thuis bent of onderweg. Onze beveiligingsoplossingen omvatten slimme camera's met live-weergave en opname in de cloud, bewegingssensoren en deur/raamsensoren die u waarschuwen bij ongewone activiteit, slim deursloten die u op afstand kunt bedienen en die automatisch vergrendelen, een volledig geïntegreerd alarmsysteem met smartphone-notificaties, en videodeurbellen waarmee u bezoekers kunt zien en spreken vanaf elke locatie. Alle beveiligingscomponenten worden professioneel geïnstalleerd en geïntegreerd in één gebruiksvriendelijk systeem.",
-          },
-          {
-            heading: "Entertainment en multiroom audio",
-            body: "Creëer de ultieme entertainment-ervaring met een professioneel geïnstalleerd multiroom audiosysteem. Luister naar muziek in elke kamer, bekijk films op een professioneel ingebouwd scherm, of geniet van perfect geluid in uw thuisbioscoop. Wij installeren inbouwspeakers, soundbars en complete home cinema systemen, en integreren alles met uw bestaande streaming-diensten. Bediening via één app of spraakcommando maakt het gebruik kinderlijk eenvoudig.",
-          },
-          {
-            heading: "Integratie en automatisering",
-            body: "De ware kracht van een smart home ligt in de integratie van alle systemen. Bij Electro Masters zorgen wij ervoor dat verlichting, klimaat, beveiliging en entertainment naadloos samenwerken. Wij programmeren scenario's zoals 'Goedemorgen' dat de verlichting geleidelijk aanzet, de verwarming opstart en uw favoriete muziek afspeelt, of 'Verlaat het huis' dat alle lichten uitschakelt, de thermostaat verlaagt en het alarm activeert. Met één druk op de knop of een spraakcommando activeert u het perfecte scenario voor elk moment van de dag. Wij ondersteunen alle gangbare platforms waaronder Apple HomeKit, Google Home en Amazon Alexa.",
-          },
-        ],
-        faqs: [
-          {
-            question: "Is mijn woning geschikt voor smart home technologie?",
-            answer:
-              "Vrijwel elke woning kan worden uitgerust met smart home technologie. Bij bestaande woningen gebruiken we vaak draadloze oplossingen die geen extra bekabeling vereisen.",
-          },
-          {
-            question: "Welke smart home merken installeren jullie?",
-            answer:
-              "Wij werken met diverse toonaangevende merken zoals Philips Hue, Nest, Niko, KNX, Sonos en meer. We adviseren het beste systeem op basis van uw wensen en budget.",
-          },
-          {
-            question: "Kan ik mijn smart home later uitbreiden?",
-            answer:
-              "Absoluut. Wij ontwerpen uw systeem met uitbreidbaarheid in gedachten. U kunt starten met de basis en later extra functies toevoegen.",
-          },
-          {
-            question: "Hoe beveilig zijn smart home systemen?",
-            answer:
-              "Wij nemen cyberveiligheid serieus en configureren alle systemen met sterke wachtwoorden, versleuteling en de nieuwste beveiligingsupdates.",
-          },
-        ],
-      },
-      fr: {
-        title: "Installation Maison Intelligente",
-        metaTitle:
-          "Installation Maison Intelligente | Spécialiste Domotique | Electro Masters",
-        metaDescription:
-          "Installation professionnelle de maison intelligente en Flandre. Éclairage intelligent, thermostats, sécurité et domotique. Electro Masters rend votre maison intelligente.",
-        h1: "Installation Maison Intelligente et Domotique en Flandre",
-        intro:
-          "L'avenir de l'habitat est intelligent. Avec une installation professionnelle de maison intelligente, vous transformez votre habitation en un foyer intelligent, économe en énergie et confortable. Electro Masters est votre spécialiste en domotique et solutions smart home en Flandre. Nous concevons, installons et configurons des systèmes domotiques complets parfaitement adaptés à votre style de vie. De l'éclairage intelligent au contrôle climatique, en passant par les systèmes de sécurité et le divertissement — nous intégrons toutes les technologies de manière transparente dans votre habitation.",
-        sections: [
-          {
-            heading: "Éclairage intelligent",
-            body: "L'éclairage intelligent est souvent la première étape vers une maison intelligente. Avec des systèmes d'éclairage intelligents, vous contrôlez toutes les lumières de votre maison depuis votre smartphone ou par commande vocale. Vous pouvez créer des ambiances pour différentes occasions, programmer l'éclairage en fonction de la présence ou de l'heure, installer un éclairage LED dimmable économe en énergie, programmer l'éclairage extérieur pour la sécurité et le confort, et adapter la température de couleur au moment de la journée.",
-          },
-          {
-            heading: "Contrôle climatique et gestion énergétique",
-            body: "Les thermostats et systèmes climatiques intelligents offrent non seulement plus de confort, mais peuvent également réduire considérablement votre facture énergétique. Nous installons et configurons des thermostats intelligents qui apprennent de vos habitudes, le chauffage par zone pour contrôler chaque pièce individuellement, l'intégration avec panneaux solaires et batteries domestiques, la surveillance de votre consommation en temps réel, et la régulation automatique basée sur la météo et la présence.",
-          },
-          {
-            heading: "Sécurité et surveillance",
-            body: "Un système de sécurité intelligent vous offre la tranquillité d'esprit, que vous soyez chez vous ou en déplacement. Nos solutions de sécurité comprennent des caméras intelligentes avec visualisation en direct et enregistrement cloud, des capteurs de mouvement et de porte/fenêtre, des serrures intelligentes contrôlables à distance, un système d'alarme intégré avec notifications smartphone, et des sonnettes vidéo pour voir et parler aux visiteurs depuis n'importe où.",
-          },
-          {
-            heading: "Divertissement et audio multiroom",
-            body: "Créez l'expérience de divertissement ultime avec un système audio multiroom installé professionnellement. Écoutez de la musique dans chaque pièce, regardez des films sur un écran intégré ou profitez d'un son parfait dans votre home cinéma. Nous installons des enceintes encastrées, des barres de son et des systèmes home cinéma complets, le tout intégré avec vos services de streaming existants.",
-          },
-          {
-            heading: "Intégration et automatisation",
-            body: "La véritable puissance d'une maison intelligente réside dans l'intégration de tous les systèmes. Chez Electro Masters, nous veillons à ce que l'éclairage, le climat, la sécurité et le divertissement fonctionnent ensemble de manière transparente. Nous programmons des scénarios personnalisés activables d'une simple pression ou par commande vocale. Nous supportons toutes les plateformes courantes dont Apple HomeKit, Google Home et Amazon Alexa.",
-          },
-        ],
-        faqs: [
-          {
-            question:
-              "Mon habitation est-elle adaptée à la technologie smart home?",
-            answer:
-              "Pratiquement toute habitation peut être équipée de technologie smart home. Pour les habitations existantes, nous utilisons souvent des solutions sans fil ne nécessitant pas de câblage supplémentaire.",
-          },
-          {
-            question: "Quelles marques smart home installez-vous?",
-            answer:
-              "Nous travaillons avec diverses marques leaders telles que Philips Hue, Nest, Niko, KNX, Sonos et plus encore.",
-          },
-          {
-            question:
-              "Puis-je étendre mon installation smart home plus tard?",
-            answer:
-              "Absolument. Nous concevons votre système avec l'extensibilité à l'esprit. Vous pouvez commencer par les bases et ajouter des fonctionnalités ultérieurement.",
-          },
-          {
-            question:
-              "Les systèmes smart home sont-ils sécurisés?",
-            answer:
-              "Nous prenons la cybersécurité au sérieux et configurons tous les systèmes avec des mots de passe forts, le chiffrement et les dernières mises à jour de sécurité.",
-          },
-        ],
-      },
-      en: {
-        title: "Smart Home Installation",
-        metaTitle:
-          "Smart Home Installation | Home Automation Specialist | Electro Masters",
-        metaDescription:
-          "Professional smart home installation in Flanders. Smart lighting, thermostats, security, and home automation. Electro Masters makes your home intelligent.",
-        h1: "Smart Home Installation and Home Automation in Flanders",
-        intro:
-          "The future of living is smart. With a professional smart home installation, you transform your home into an intelligent, energy-efficient, and comfortable living space. Electro Masters is your specialist for home automation and smart home solutions in Flanders. We design, install, and configure complete smart home systems that perfectly match your lifestyle. From smart lighting and climate control to security systems and entertainment — we seamlessly integrate all technologies into your home.",
-        sections: [
-          {
-            heading: "Smart lighting",
-            body: "Smart lighting is often the first step toward a smart home. With intelligent lighting systems, you control all lights in your home from your smartphone or via voice commands. You can set mood scenes for different occasions, automate lighting based on presence or time of day, install dimmable LED lighting that saves energy and creates ambiance, program outdoor lighting for safety and convenience, and adjust color temperature to match the time of day.",
-          },
-          {
-            heading: "Climate control and energy management",
-            body: "Smart thermostats and climate systems not only offer more comfort but can also significantly reduce your energy bill. We install and configure smart thermostats that learn from your habits, zone heating to control each room individually, integration with solar panels and home batteries, real-time energy consumption monitoring, and automatic regulation based on weather, presence, and preferences.",
-          },
-          {
-            heading: "Security and surveillance",
-            body: "A smart security system gives you peace of mind whether you're at home or away. Our security solutions include smart cameras with live viewing and cloud recording, motion sensors and door/window sensors, smart locks you can control remotely, a fully integrated alarm system with smartphone notifications, and video doorbells for seeing and speaking to visitors from anywhere.",
-          },
-          {
-            heading: "Entertainment and multiroom audio",
-            body: "Create the ultimate entertainment experience with a professionally installed multiroom audio system. Listen to music in every room, watch movies on a professionally built-in screen, or enjoy perfect sound in your home theater. We install built-in speakers, soundbars, and complete home cinema systems, all integrated with your existing streaming services.",
-          },
-          {
-            heading: "Integration and automation",
-            body: "The true power of a smart home lies in integrating all systems. At Electro Masters, we ensure that lighting, climate, security, and entertainment work together seamlessly. We program custom scenarios activatable with a single tap or voice command. We support all common platforms including Apple HomeKit, Google Home, and Amazon Alexa.",
-          },
-        ],
-        faqs: [
-          {
-            question: "Is my home suitable for smart home technology?",
-            answer:
-              "Virtually any home can be equipped with smart home technology. For existing homes, we often use wireless solutions that don't require additional cabling.",
-          },
-          {
-            question: "Which smart home brands do you install?",
-            answer:
-              "We work with various leading brands such as Philips Hue, Nest, Niko, KNX, Sonos, and more.",
-          },
-          {
-            question: "Can I expand my smart home later?",
-            answer:
-              "Absolutely. We design your system with expandability in mind. You can start with the basics and add features later.",
-          },
-          {
-            question: "How secure are smart home systems?",
-            answer:
-              "We take cybersecurity seriously and configure all systems with strong passwords, encryption, and the latest security updates.",
-          },
-        ],
-      },
-    },
-  },
-  {
     key: "industrial",
     heroImage: "/20250327_134437.webp",
     slugs: {
@@ -741,12 +560,12 @@ export const services: Service[] = [
       nl: {
         title: "Industriële Elektriciteit",
         metaTitle:
-          "Industriële Elektriciteit | Bedrijfselektricien | Electro Masters",
+          "Industriële Elektriciteit | Bedrijfselektricien | Elektro Master",
         metaDescription:
-          "Professionele industriële elektrische diensten in Vlaanderen. Krachtstroom, machinebedrijving, verdeelkasten en meer. Electro Masters voor al uw industriële elektriciteitsbehoeften.",
+          "Professionele industriële elektrische diensten in Vlaanderen. Krachtstroom, machinebedrijving, verdeelkasten en meer. Elektro Master voor al uw industriële elektriciteitsbehoeften.",
         h1: "Industriële Elektrische Diensten in Vlaanderen",
         intro:
-          "Industriële elektrische installaties vereisen gespecialiseerde kennis, ervaring en de hoogste veiligheidsnormen. Electro Masters biedt uitgebreide industriële elektrische diensten voor fabrieken, magazijnen, productiefaciliteiten en commerciële panden in heel Vlaanderen. Onze industrieel opgeleide elektriciens begrijpen de unieke uitdagingen van industriële omgevingen en leveren betrouwbare, veilige en efficiënte oplossingen die uw productieprocessen ondersteunen. Van krachtstoominstallaties en machinebediening tot complete verdeelsystemen en periodiek onderhoud — wij zijn uw partner voor elke industriële elektriciteitsbehoefte.",
+          "Industriële elektrische installaties vereisen gespecialiseerde kennis, ervaring en de hoogste veiligheidsnormen. Elektro Master biedt uitgebreide industriële elektrische diensten voor fabrieken, magazijnen, productiefaciliteiten en commerciële panden in heel Vlaanderen. Onze industrieel opgeleide elektriciens begrijpen de unieke uitdagingen van industriële omgevingen en leveren betrouwbare, veilige en efficiënte oplossingen die uw productieprocessen ondersteunen. Van krachtstoominstallaties en machinebediening tot complete verdeelsystemen en periodiek onderhoud — wij zijn uw partner voor elke industriële elektriciteitsbehoefte.",
         sections: [
           {
             heading: "Krachtstroom en driefasige installaties",
@@ -754,7 +573,7 @@ export const services: Service[] = [
           },
           {
             heading: "Industriële verdeelkasten en besturingspanelen",
-            body: "Het hart van elke industriële elektrische installatie is de verdeelkast. Electro Masters ontwerpt en bouwt op maat gemaakte verdeelkasten en besturingspanelen die voldoen aan de strengste normen. Onze diensten omvatten het ontwerp en de bouw van hoofd- en subverdeelkasten, PLC-besturingen en automatiseringspanelen, motorstarters en frequentiesturingen, veiligheidsschakelingen conform de machinerichtlijn, en duidelijke labeling en documentatie. Elke verdeelkast wordt grondig getest voordat deze wordt geïnstalleerd en in gebruik wordt genomen.",
+            body: "Het hart van elke industriële elektrische installatie is de verdeelkast. Elektro Master ontwerpt en bouwt op maat gemaakte verdeelkasten en besturingspanelen die voldoen aan de strengste normen. Onze diensten omvatten het ontwerp en de bouw van hoofd- en subverdeelkasten, PLC-besturingen en automatiseringspanelen, motorstarters en frequentiesturingen, veiligheidsschakelingen conform de machinerichtlijn, en duidelijke labeling en documentatie. Elke verdeelkast wordt grondig getest voordat deze wordt geïnstalleerd en in gebruik wordt genomen.",
           },
           {
             heading: "Industriële verlichting",
@@ -762,7 +581,7 @@ export const services: Service[] = [
           },
           {
             heading: "Onderhoud en storingsdienst",
-            body: "Onverwachte stilstand kost geld. Electro Masters biedt preventieve onderhoudscontracten en een snelle storingsdienst voor industriële klanten. Ons onderhoudsprogramma omvat periodieke inspectie en thermografie van elektrische installaties, predictief onderhoud om storingen te voorkomen, 24/7 storingsdienst met korte responstijden, vervanging van versleten componenten voordat ze falen, en rapportage en documentatie van alle uitgevoerde werkzaamheden. Door regelmatig onderhoud verlengt u de levensduur van uw installaties en voorkomt u kostbare productiestilstand.",
+            body: "Onverwachte stilstand kost geld. Elektro Master biedt preventieve onderhoudscontracten en een snelle storingsdienst voor industriële klanten. Ons onderhoudsprogramma omvat periodieke inspectie en thermografie van elektrische installaties, predictief onderhoud om storingen te voorkomen, 24/7 storingsdienst met korte responstijden, vervanging van versleten componenten voordat ze falen, en rapportage en documentatie van alle uitgevoerde werkzaamheden. Door regelmatig onderhoud verlengt u de levensduur van uw installaties en voorkomt u kostbare productiestilstand.",
           },
           {
             heading: "Energieoptimalisatie en duurzaamheid",
@@ -795,12 +614,12 @@ export const services: Service[] = [
       fr: {
         title: "Électricité Industrielle",
         metaTitle:
-          "Électricité Industrielle | Électricien Industriel | Electro Masters",
+          "Électricité Industrielle | Électricien Industriel | Elektro Master",
         metaDescription:
-          "Services électriques industriels professionnels en Flandre. Courant fort, commande de machines, tableaux de distribution et plus. Electro Masters pour tous vos besoins industriels.",
+          "Services électriques industriels professionnels en Flandre. Courant fort, commande de machines, tableaux de distribution et plus. Elektro Master pour tous vos besoins industriels.",
         h1: "Services Électriques Industriels en Flandre",
         intro:
-          "Les installations électriques industrielles nécessitent des connaissances spécialisées, de l'expérience et les normes de sécurité les plus élevées. Electro Masters offre des services électriques industriels complets pour les usines, entrepôts, installations de production et bâtiments commerciaux dans toute la Flandre. Nos électriciens formés à l'industrie comprennent les défis uniques des environnements industriels et fournissent des solutions fiables, sûres et efficaces qui soutiennent vos processus de production.",
+          "Les installations électriques industrielles nécessitent des connaissances spécialisées, de l'expérience et les normes de sécurité les plus élevées. Elektro Master offre des services électriques industriels complets pour les usines, entrepôts, installations de production et bâtiments commerciaux dans toute la Flandre. Nos électriciens formés à l'industrie comprennent les défis uniques des environnements industriels et fournissent des solutions fiables, sûres et efficaces qui soutiennent vos processus de production.",
         sections: [
           {
             heading: "Courant fort et installations triphasées",
@@ -808,7 +627,7 @@ export const services: Service[] = [
           },
           {
             heading: "Tableaux de distribution et panneaux de commande",
-            body: "Le cœur de toute installation électrique industrielle est le tableau de distribution. Electro Masters conçoit et construit des tableaux de distribution et panneaux de commande sur mesure répondant aux normes les plus strictes. Nos services comprennent la conception et la construction de tableaux principaux et secondaires, les commandes PLC et panneaux d'automatisation, les démarreurs de moteurs et variateurs de fréquence, les circuits de sécurité conformes à la directive machines, et un étiquetage et une documentation clairs.",
+            body: "Le cœur de toute installation électrique industrielle est le tableau de distribution. Elektro Master conçoit et construit des tableaux de distribution et panneaux de commande sur mesure répondant aux normes les plus strictes. Nos services comprennent la conception et la construction de tableaux principaux et secondaires, les commandes PLC et panneaux d'automatisation, les démarreurs de moteurs et variateurs de fréquence, les circuits de sécurité conformes à la directive machines, et un étiquetage et une documentation clairs.",
           },
           {
             heading: "Éclairage industriel",
@@ -816,7 +635,7 @@ export const services: Service[] = [
           },
           {
             heading: "Maintenance et service de dépannage",
-            body: "Les arrêts imprévus coûtent de l'argent. Electro Masters propose des contrats de maintenance préventive et un service de dépannage rapide pour les clients industriels. Notre programme comprend l'inspection périodique et la thermographie, la maintenance prédictive, un service de dépannage 24/7 avec des temps de réponse courts, le remplacement préventif des composants usés, et la documentation complète de tous les travaux effectués.",
+            body: "Les arrêts imprévus coûtent de l'argent. Elektro Master propose des contrats de maintenance préventive et un service de dépannage rapide pour les clients industriels. Notre programme comprend l'inspection périodique et la thermographie, la maintenance prédictive, un service de dépannage 24/7 avec des temps de réponse courts, le remplacement préventif des composants usés, et la documentation complète de tous les travaux effectués.",
           },
           {
             heading: "Optimisation énergétique et durabilité",
@@ -852,12 +671,12 @@ export const services: Service[] = [
       en: {
         title: "Industrial Electrical Services",
         metaTitle:
-          "Industrial Electrical Services | Industrial Electrician | Electro Masters",
+          "Industrial Electrical Services | Industrial Electrician | Elektro Master",
         metaDescription:
-          "Professional industrial electrical services in Flanders. Power supply, machine connections, distribution panels, and more. Electro Masters for all your industrial electrical needs.",
+          "Professional industrial electrical services in Flanders. Power supply, machine connections, distribution panels, and more. Elektro Master for all your industrial electrical needs.",
         h1: "Industrial Electrical Services in Flanders",
         intro:
-          "Industrial electrical installations require specialized knowledge, experience, and the highest safety standards. Electro Masters provides comprehensive industrial electrical services for factories, warehouses, production facilities, and commercial properties throughout Flanders. Our industrially trained electricians understand the unique challenges of industrial environments and deliver reliable, safe, and efficient solutions that support your production processes.",
+          "Industrial electrical installations require specialized knowledge, experience, and the highest safety standards. Elektro Master provides comprehensive industrial electrical services for factories, warehouses, production facilities, and commercial properties throughout Flanders. Our industrially trained electricians understand the unique challenges of industrial environments and deliver reliable, safe, and efficient solutions that support your production processes.",
         sections: [
           {
             heading: "Power supply and three-phase installations",
@@ -865,7 +684,7 @@ export const services: Service[] = [
           },
           {
             heading: "Distribution panels and control panels",
-            body: "The heart of any industrial electrical installation is the distribution panel. Electro Masters designs and builds custom distribution panels and control panels that meet the strictest standards. Our services include design and construction of main and sub-distribution panels, PLC controls and automation panels, motor starters and frequency drives, safety circuits compliant with the Machinery Directive, and clear labeling and documentation.",
+            body: "The heart of any industrial electrical installation is the distribution panel. Elektro Master designs and builds custom distribution panels and control panels that meet the strictest standards. Our services include design and construction of main and sub-distribution panels, PLC controls and automation panels, motor starters and frequency drives, safety circuits compliant with the Machinery Directive, and clear labeling and documentation.",
           },
           {
             heading: "Industrial lighting",
@@ -873,7 +692,7 @@ export const services: Service[] = [
           },
           {
             heading: "Maintenance and breakdown service",
-            body: "Unexpected downtime costs money. Electro Masters offers preventive maintenance contracts and a rapid breakdown service for industrial clients. Our program includes periodic inspection and thermography, predictive maintenance, 24/7 breakdown service with short response times, preventive replacement of worn components, and complete documentation of all work performed.",
+            body: "Unexpected downtime costs money. Elektro Master offers preventive maintenance contracts and a rapid breakdown service for industrial clients. Our program includes periodic inspection and thermography, predictive maintenance, 24/7 breakdown service with short response times, preventive replacement of worn components, and complete documentation of all work performed.",
           },
           {
             heading: "Energy optimization and sustainability",

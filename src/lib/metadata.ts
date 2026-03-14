@@ -72,14 +72,14 @@ export function getCityMeta(
 
 export function getContactMeta(locale: Locale): Metadata {
   const titles: Record<Locale, string> = {
-    nl: "Contact | Electro Masters | Elektricien Vlaanderen",
-    fr: "Contact | Electro Masters | Électricien Flandre",
-    en: "Contact | Electro Masters | Electrician Flanders",
+    nl: "Contact | Elektro Master | Elektricien Vlaanderen",
+    fr: "Contact | Elektro Master | Électricien Flandre",
+    en: "Contact | Elektro Master | Electrician Flanders",
   };
   const descriptions: Record<Locale, string> = {
-    nl: "Neem contact op met Electro Masters voor al uw elektrische diensten in Vlaanderen. Bel ons 24/7 of vraag een gratis offerte aan.",
-    fr: "Contactez Electro Masters pour tous vos services électriques en Flandre. Appelez-nous 24/7 ou demandez un devis gratuit.",
-    en: "Contact Electro Masters for all your electrical services in Flanders. Call us 24/7 or request a free quote.",
+    nl: "Neem contact op met Elektro Master voor al uw elektrische diensten in Vlaanderen. Bel ons 24/7 of vraag een gratis offerte aan.",
+    fr: "Contactez Elektro Master pour tous vos services électriques en Flandre. Appelez-nous 24/7 ou demandez un devis gratuit.",
+    en: "Contact Elektro Master for all your electrical services in Flanders. Call us 24/7 or request a free quote.",
   };
 
   const url = `${company.url}/${locale}/contact`;

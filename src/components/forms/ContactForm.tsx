@@ -10,11 +10,30 @@ import { Button } from "@/components/ui/Button";
 export function ContactForm() {
   const t = useTranslations("contact");
   const locale = useLocale() as Locale;
+  const [result, setResult] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setSubmitted(true);
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setResult("Verzenden...");
+
+    const formData = new FormData(event.target as HTMLFormElement);
+    formData.append("access_key", "86721aad-4bc0-4fc5-b0d6-0627cacaac04");
+    formData.append("subject", `Nieuw contactformulier van ${formData.get("name")}`);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setSubmitted(true);
+      (event.target as HTMLFormElement).reset();
+    } else {
+      setResult("Er is iets misgegaan. Probeer het opnieuw of bel ons direct.");
+    }
   };
 
   if (submitted) {
@@ -41,7 +60,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form onSubmit={onSubmit} className="space-y-6">
       <div>
         <label
           htmlFor="name"
@@ -100,10 +119,10 @@ export function ContactForm() {
         <select
           id="service"
           name="service"
-          className="w-full rounded-lg border border-accent-300 px-4 py-3 text-gray-900 transition-colors focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20"
+          className="w-full rounded-lg border border-accent-300 bg-[#0f172a] px-4 py-3 text-white transition-colors focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20 [&>option]:bg-[#0f172a] [&>option]:text-white"
         >
           <option value="">{t("formServicePlaceholder")}</option>
-          {services.filter((s) => s.key !== "smart-home").map((service) => (
+          {services.map((service) => (
             <option key={service.key} value={service.key}>
               {service.content[locale].title}
             </option>
@@ -127,8 +146,12 @@ export function ContactForm() {
         />
       </div>
 
-      <Button type="submit" size="lg" className="w-full">
-        {t("formSubmit")}
+      {result && result !== "Verzenden..." && (
+        <p className="text-sm text-red-600">{result}</p>
+      )}
+
+      <Button type="submit" size="lg" className="w-full" disabled={result === "Verzenden..."}>
+        {result === "Verzenden..." ? "Verzenden..." : t("formSubmit")}
       </Button>
 
       <div className="flex items-center gap-3 pt-2">

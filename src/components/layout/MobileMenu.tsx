@@ -20,7 +20,7 @@ export function MobileMenu() {
     { label: t("emergency"), href: `/${services[0].slugs[locale]}` },
     { label: t("installation"), href: `/${services[1].slugs[locale]}` },
     { label: t("repairs"), href: `/${services[2].slugs[locale]}` },
-    { label: t("industrial"), href: `/${services[4].slugs[locale]}` },
+    { label: t("industrial"), href: `/${services[3].slugs[locale]}` },
     { label: t("contact"), href: "/contact" },
   ];
 
@@ -29,7 +29,11 @@ export function MobileMenu() {
       <ThemeToggle />
       <LanguageSwitcher />
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => {
+          const opening = !isOpen;
+          setIsOpen(opening);
+          if (opening) window.scrollTo({ top: 0, behavior: "smooth" });
+        }}
         className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 dark:text-gray-200 hover:bg-accent-100 dark:hover:bg-gray-700 hover:text-primary-500 transition-colors"
         aria-expanded={isOpen}
         aria-label="Toggle menu"

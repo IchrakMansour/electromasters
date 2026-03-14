@@ -239,7 +239,7 @@ function ContactPage({ locale }: { locale: Locale }) {
       email: "E-mail",
       address: "Adres",
       hours: "Beschikbaarheid",
-      hoursValue: "24/7 voor noodgevallen",
+      hoursValue: "24/7 voor spoedgevallen",
     },
     fr: {
       phone: "Téléphone",
@@ -270,8 +270,8 @@ function ContactPage({ locale }: { locale: Locale }) {
               <ContactForm />
             </div>
             <div>
-              <div className="rounded-xl bg-accent-50 p-8">
-                <h2 className="mb-6 text-2xl font-bold text-gray-900">
+              <div className="rounded-xl bg-[#0f172a] p-8">
+                <h2 className="mb-6 text-2xl font-bold text-white">
                   {locale === "nl"
                     ? "Contactgegevens"
                     : locale === "fr"
@@ -280,17 +280,17 @@ function ContactPage({ locale }: { locale: Locale }) {
                 </h2>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="rounded-lg bg-primary-100 p-3 text-primary-500">
+                    <div className="rounded-lg bg-white/10 p-3 text-white">
                       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900">{info.phone}</p>
+                      <p className="font-semibold text-white">{info.phone}</p>
                       <div className="flex flex-wrap items-center gap-3 mt-1">
                         <a
                           href={`tel:${company.phoneRaw}`}
-                          className="text-primary-500 hover:underline text-sm"
+                          className="text-primary-400 hover:underline text-sm"
                         >
                           {company.phone}
                         </a>
@@ -309,30 +309,30 @@ function ContactPage({ locale }: { locale: Locale }) {
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="rounded-lg bg-primary-100 p-3 text-primary-500">
+                    <div className="rounded-lg bg-white/10 p-3 text-white">
                       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900">{info.email}</p>
+                      <p className="font-semibold text-white">{info.email}</p>
                       <a
                         href={`mailto:${company.email}`}
-                        className="text-primary-500 hover:underline"
+                        className="text-primary-400 hover:underline"
                       >
                         {company.email}
                       </a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="rounded-lg bg-primary-100 p-3 text-primary-500">
+                    <div className="rounded-lg bg-white/10 p-3 text-white">
                       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900">{info.hours}</p>
-                      <p className="text-gray-600">{info.hoursValue}</p>
+                      <p className="font-semibold text-white">{info.hours}</p>
+                      <p className="text-gray-300">{info.hoursValue}</p>
                     </div>
                   </div>
                 </div>

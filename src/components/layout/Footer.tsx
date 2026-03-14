@@ -27,7 +27,7 @@ export function Footer() {
               {t("services")}
             </h3>
             <ul className="space-y-2">
-              {services.filter((s) => s.key !== "smart-home").map((service) => (
+              {services.map((service) => (
                 <li key={service.key}>
                   <Link
                     href={`/${service.slugs[locale]}`}
